@@ -1,0 +1,31 @@
+/* ── Language panel (translate-system) ──────────────────
+   Igual que en meaxone-template.css. Si la plantilla del sistema ya trae
+   #mo-lang-panel, agrega solo el bloque "Extras para Blazor". */
+#mo-lang-panel {
+    display: none; flex-direction: column; gap: 2px;
+    padding: 4px 8px 6px; margin: 0 -4px;
+}
+#mo-lang-panel.open { display: flex; }
+.mo-lang-opt {
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px 10px; cursor: pointer;
+    border: none; background: none; width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px; font-weight: 500;
+    color: rgba(255,255,255,0.7);
+    border-radius: 8px; transition: background 0.12s;
+    text-align: left;
+}
+.mo-lang-opt:hover { background: rgba(255,255,255,0.07); color: #fff; }
+.mo-lang-opt.mo-lang-active {
+    background: rgba(255,255,255,0.14); color: #fff; font-weight: 700;
+}
+.mo-lang-flag { font-size: 20px; line-height: 1; flex-shrink: 0; }
+.mo-lang-check {
+    margin-left: auto; color: #fff; opacity: 0; flex-shrink: 0;
+}
+.mo-lang-opt.mo-lang-active .mo-lang-check { opacity: 1; }
+
+/* Extras para Blazor: las opciones son <a> y el ícono es SVG */
+a.mo-lang-opt, a.mo-lang-opt:hover { text-decoration: none; }
+#mo-lang-chevron { margin-left: 6px; flex-shrink: 0; transition: transform 0.15s; }

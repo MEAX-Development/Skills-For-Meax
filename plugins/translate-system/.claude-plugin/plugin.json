@@ -1,0 +1,9 @@
+{
+  "name": "translate-system",
+  "description": "Traduce un sistema MEAX (Blazor Web App, .NET 8+) a Español, English y 日本語: motor de idiomas con Resources/{es,en,ja}.json, idioma desde el claim Idioma de MEAX One, selector con banderas en el menú de usuario, reemplazo de todos los textos de las pantallas y validación.",
+  "author": {
+    "name": "Fabian Gonzalez",
+    "email": "elfabigs03@gmail.com"
+  },
+  "keywords": ["i18n", "traduccion", "blazor", "meax", "japones"]
+}

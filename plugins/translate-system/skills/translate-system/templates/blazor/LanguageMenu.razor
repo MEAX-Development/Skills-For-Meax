@@ -1,0 +1,33 @@
+@using System.Globalization
+@using Microsoft.Extensions.Localization
+@using __NAMESPACE__
+@inject IStringLocalizer<SharedResource> L
+
+@* Selector de idioma dentro del menú de usuario de MEAX One. Solo HTML y JS (wwwroot/js/mo-language.js):
+   funciona igual con render estático o interactivo. Elegir un idioma recarga la página completa,
+   porque el idioma de un circuito de Blazor se fija al abrirlo. *@
+
+<button type="button" class="mo-dd-item" aria-expanded="false" aria-controls="mo-lang-panel" onclick="moToggleLangPanel(event)">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /><path d="M2 12h20" /></svg>
+    <span>@L["Language"]</span>
+    <span class="mo-dd-soon" id="mo-lang-current">@Actual.ShortLabel</span>
+    <svg id="mo-lang-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6" /></svg>
+</button>
+
+<div id="mo-lang-panel" role="menu">
+    @foreach (var idioma in SupportedCultures.All)
+    {
+        var activo = idioma.Code == Actual.Code;
+        <a class="mo-lang-opt @(activo ? "mo-lang-active" : "")" role="menuitemradio" aria-checked="@(activo ? "true" : "false")"
+           href="@($"{LocalizationSetup.CultureEndpoint}?culture={idioma.Code}")" data-enhance-nav="false"
+           lang="@idioma.Code" title="@idioma.NativeName" onclick="return moSetLanguage(event, '@idioma.Code')">
+            <span class="mo-lang-flag">@idioma.Flag</span>
+            <span>@idioma.NativeName</span>
+            <svg class="mo-lang-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></svg>
+        </a>
+    }
+</div>
+
+@code {
+    private static SupportedCulture Actual => SupportedCultures.Resolve(CultureInfo.CurrentUICulture.Name);
+}
