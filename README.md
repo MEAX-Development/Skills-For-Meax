@@ -46,6 +46,17 @@ carpeta del servidor.
   python plugins/translate-system/skills/translate-system/scripts/i18n_check.py <proyecto> --to-glossary plugins/translate-system/skills/translate-system/glossary
   ```
 
+- **Terminología** (`glossary/terms.tsv`): inglés → español → japonés, generada del
+  `glossary.tsv` del Traductor (v3: Diccionario Técnico MEAX). No se edita a mano: se corrige
+  en el Traductor y se regenera:
+
+  ```
+  python plugins/translate-system/skills/translate-system/scripts/terms_from_traductor.py <Traductor>/Traductor/glossary.tsv plugins/translate-system/skills/translate-system/glossary/terms.tsv
+  ```
+
+  Las llaves completas de `es.json`/`ja.json` le ganan: son las traducciones de pantalla
+  aprobadas ("Resume" en una pantalla es *Reanudar*, no *currículum*).
+
 - **Versiones:** `plugin.json` no fija `version` a propósito, así que cada push a `main` es una
   versión nueva. Con la sincronización automática de la organización, el cambio les llega a todos
   en su siguiente sesión de Claude Code.

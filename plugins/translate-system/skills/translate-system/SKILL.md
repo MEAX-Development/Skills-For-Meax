@@ -8,7 +8,10 @@ description: Traduce un sistema MEAX (Blazor Web App, .NET 8+) a Español, Engli
 Deja un sistema Blazor de MEAX en tres idiomas (ES / EN / JA), igual que el PRC (Purchase
 Requisition), pero adaptado a Blazor. Todo lo que se instala está en `templates/blazor/` junto
 a este archivo. El script `scripts/i18n_check.py` valida el resultado y `glossary/` trae las
-traducciones aprobadas del PRC para usar los mismos términos.
+traducciones aprobadas del PRC para usar los mismos términos, más `glossary/terms.tsv`: la
+terminología técnica de MEAX en inglés, español y japonés (unos 2,000 términos de producción,
+calidad, alternadores, marchas, mantenimiento, seguridad, RH, finanzas y legal), la misma que
+usa el Traductor.
 
 `SKILL_DIR` en este documento es la carpeta donde está este `SKILL.md`. Con el plugin
 instalado está dentro de `~/.claude/plugins/`; búscala si no la conoces, por ejemplo con
@@ -241,7 +244,12 @@ Después de cada carpeta, corre `dotnet build` para detectar comillas mal anidad
    ```
 4. Traduce las llaves de `es` y `ja` y escríbelas en uno o varios lotes
    `{"es": {...}, "ja": {...}}`. Antes, revisa en `glossary/` cómo se tradujeron términos
-   parecidos. Intégralos con:
+   parecidos. Si una llave lleva un término técnico ("Slip ring", "Containment action",
+   "Defect rate", "Lead time"), búscalo en `glossary/terms.tsv` (columnas
+   `english<TAB>español<TAB>日本語`; con Grep, sin distinguir mayúsculas) y usa esa traducción
+   dentro de la frase: así un mismo término sale igual en todos los sistemas y en el
+   Traductor. Si `glossary/es.json` o `ja.json` ya traen la llave completa, esas mandan.
+   Intégralos con:
    ```bash
    python "SKILL_DIR/scripts/i18n_check.py" "<proyecto>" --merge lote1.json lote2.json
    ```
@@ -271,7 +279,11 @@ Después de cada carpeta, corre `dotnet build` para detectar comillas mal anidad
   - Mensajes en forma です/ます (保存しました。).
   - Puntuación 、。 y comillas 「」.
   - Siglas y códigos sin traducir.
-  - Usa los mismos términos que `glossary/ja.json` (申請, 承認, 却下, 差戻し…).
+  - Usa los mismos términos que `glossary/ja.json` (申請, 承認, 却下, 差戻し…) y, para
+    vocabulario de planta, los de `glossary/terms.tsv`. Ahí van primero los de MX-6016, el
+    único procedimiento trilingüe de MEAX, que un traductor genérico erraría: producto
+    sospechoso = 保留品 (no 疑わしい製品), contención = 封じ込め, sorteo = 選別, defecto = 不良,
+    Control de Producción = 生産計画部門.
 - Respeta los placeholders `{0}` exactamente.
 - En los dos idiomas cuida la longitud: un menú lateral o un botón no debe crecer mucho
   (busca la forma corta natural).

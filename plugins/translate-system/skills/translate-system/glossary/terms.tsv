@@ -1,0 +1,2057 @@
+# terms.tsv — terminologia MEAX en tres idiomas, para traducir pantallas.
+# Columnas: english <TAB> espanol <TAB> 日本語
+#
+# GENERADO con scripts/terms_from_traductor.py desde el glossary.tsv del
+# Traductor (v3: Diccionario Tecnico MEAX + procedimientos MX-6xxx/7xxx). No
+# se edita a mano: se corrige en el Traductor y se vuelve a generar.
+#
+# Como se usa: cuando una llave nueva lleva un termino tecnico (produccion,
+# calidad, alternadores, marchas, mantenimiento, seguridad, RH, finanzas,
+# legal), busca aqui el termino en ingles y usa ESA traduccion en es.json y
+# ja.json. Si glossary/es.json o glossary/ja.json ya traen la llave completa,
+# esas mandan: son las traducciones de pantalla aprobadas.
+#
+# Las primeras filas son de MX-6016, el unico procedimiento trilingue de
+# MEAX: ganan sobre cualquier otra grafia (保留品, 封じ込め, 選別...).
+
+suspect product	producto sospechoso	保留品
+nonconforming product	producto no conforme	不適合品
+NG product	producto NG	NG品
+containment	contención	封じ込め
+containment action	acción de contención	封じ込め処置
+sorting	sorteo	選別
+rework	retrabajo	手直し
+reprocess	reproceso	再加工
+quarantine	cuarentena	隔離
+scrap	scrap	スクラップ
+concession	concesión	特採
+escalation	escalamiento	エスカレーション
+minor stoppage	paro menor	チョコ停
+requesting area	área solicitante	要求部門
+Production Control	Control de Producción	生産計画部門
+Production department	Producción	製造部門
+Quality department	Calidad	品質部門
+Engineering department	Ingeniería	技術部門
+Sales department	Ventas	営業
+operator	operador	作業者
+abnormality	anormalidad	異常
+nonconformity	no conformidad	不適合
+
+12V system	sistema 12V	12Vシステム
+24V system	sistema 24V	24Vシステム
+30-day payment	pago a 30 días	30日支払い
+48V system	sistema 48V	48Vシステム
+5 why analysis	análisis 5 porqués	なぜなぜ分析
+5 whys	5 porqués	なぜなぜ分析
+5 whys method	método de los 5 porqués	5なぜ分析
+5S	5S	5S活動
+abnormal condition	condición anormal	異常状態
+abnormal vibration	vibración anormal	異常振動
+abnormality detection	detección de anomalías	異常検知
+absence	ausencia	欠勤
+absence justification	justificación de ausencia	欠勤理由
+absence of voltage test	verificación de ausencia de tensión	無電圧確認
+absenteeism	ausentismo	欠勤
+AC motor	motor AC	ACモーター
+academic level	escolaridad	学歴要件
+acceptable risk	riesgo tolerable	許容リスク
+acceptance criteria	criterio de aceptación	合格基準
+acceptance sampling	muestreo de aceptación	抜取検査
+access control	control de acceso	入退管理
+accident	accidente	事故
+accident audit	auditoría de accidente	事故監査
+accident classification	clasificación del accidente	事故分類
+accident cost	costo del accidente	事故コスト
+accident investigation	investigación de accidente	事故調査
+accident reconstruction	reconstrucción del accidente	事故再現
+accident report	reporte de accidente	事故報告書
+accident scene	escena del accidente	事故現場
+accounting	contabilidad	会計
+accounts payable	cuenta por pagar	買掛金
+accounts receivable	cuenta por cobrar	売掛金
+accuracy	exactitud	精度
+acid	ácido	酸
+action effectiveness	eficacia de acción	対策効果確認
+action verification	verificación de acción	対策確認
+active risk	riesgo activo	顕在リスク
+actuator	actuador	アクチュエータ
+adhesive application	aplicación de adhesivo	接着剤塗布
+administrative control	control administrativo	管理的対策
+administrative controls	controles administrativos	管理的対策
+advance payment	pago anticipado	前払い
+advanced lubrication	lubricación avanzada	高度潤滑
+advanced product quality planning	planeación avanzada de calidad	製品品質先行計画
+air deflector	deflector de aire	エアディフレクター
+air diffuser	difusor de aire	エアディフューザー
+air duct	conducto de aire	エアダクト
+air flow	flujo de aire	気流
+air leak	fuga de aire	エア漏れ
+air quality	calidad del aire	空気質
+alarm activation	activación de alarma	警報作動
+alarm code	código de alarma	アラームコード
+alternator	alternador	オルタネーター
+alternator failure	falla de alternador	オルタネータ故障
+alternator overheating	sobrecalentamiento de alternador	オルタネータ過熱
+amortization	amortización	償却
+analog signal	señal analógica	アナログ信号
+Andon	Andon	アンドン
+Andon system	Andon de línea	アンドン
+annual production	producción anual	年産
+anti-corrosion shield	protector anticorrosión	防錆カバー
+antifreeze	anticongelante	不凍液
+approval document	documento de aprobación	承認書
+approved product	producto aprobado	合格品
+approved supplier	proveedor aprobado	承認サプライヤー
+approved vendor list	lista de proveedores	承認サプライヤーリスト
+arbitration	arbitraje	仲裁
+arc blast	explosión de arco	アーク爆発
+arc flash	arco eléctrico	アーク放電
+arc flash boundary	límite de arco	アーク境界
+arc flash risk	riesgo de arco eléctrico	アーク放電リスク
+arc flash study	estudio de arco eléctrico	アーク解析
+arc thermal energy	energía térmica de arco	アーク熱エネルギー
+area isolation	aislamiento de área	区域隔離
+armature	armadura	アーマチュア
+armature core	núcleo de armadura	アーマチュアコア
+armature winding	bobinado de armadura	アーマチュア巻線
+artificial intelligence	inteligencia artificial	人工知能
+assembly alignment	alineación de conjunto	組立位置合わせ
+assembly failure	falla de ensamblaje	組立不良
+assembly line	línea de ensamble	組立ライン
+assembly process	proceso de ensamble	組立工程
+asset	activo	資産
+assisted evacuation	evacuación asistida	支援避難
+attendance	asistencia	出勤率
+attendance control	control de asistencia	出勤管理
+audit	auditoría	監査
+audit finding	hallazgo de auditoría	監査指摘
+automated assembly	ensamble automático	自動組立
+automated line	línea automatizada	自動化ライン
+automated optical inspection	inspección AOI	自動光学検査
+automated system	sistema automatizado	自動化システム
+automatic control	control automático	自動制御
+automatic dispensing	dosificación automática	自動塗布
+automatic insertion	inserción automática	自動挿入
+automatic inspection	inspección automática	自動検査
+automatic labeling	etiquetado automático	自動ラベル貼付
+automatic logging	registro automático	自動記録
+automatic lubrication	lubricación automática	自動潤滑
+automatic stacking	apilado automático	自動積層
+automatic stop	paro automático	自動停止
+automatic transfer	transferencia automática	自動搬送
+automatic winding	enrollado automático	自動巻線
+automation failure	fallo de automatización	自動化故障
+automation system	sistema de automatización	自動化システム
+automotive alternator	alternador automotriz	自動車用オルタネータ
+automotive components	componentes automotrices	自動車部品
+automotive core tools	Core Tools automotrices	コアツール
+automotive data bus	bus de datos automotriz	車載データバス
+automotive electronics	electrónica automotriz	車載電子機器
+automotive engineering	ingeniería automotriz	自動車工学
+automotive mass production	producción en masa automotriz	自動車量産
+automotive mechatronics	mecatrónica automotriz	自動車メカトロニクス
+automotive painting	pintura automotriz	塗装工程
+automotive parts production	producción de autopartes	自動車部品生産
+automotive production line	línea de producción automotriz	自動車生産ライン
+automotive sensors	sensores automotrices	車載センサー
+autonomation	autonomatización	自働化
+autonomous maintenance	mantenimiento autónomo	自主保全
+autonomous TPM	TPM autónomo	自主TPM
+auxiliary contact	contacto auxiliar	補助接点
+auxiliary terminal	terminal auxiliar	補助端子
+availability improvement	mejora de disponibilidad	稼働率改善
+axial play	juego axial	軸方向ガタ
+axial positioning	posicionamiento axial	軸方向位置決め
+axial spacer	espaciador axial	軸方向スペーサー
+B terminal	terminal B	B端子
+B+ terminal	terminal B+	B+端子
+B10 life	vida útil B10	B10寿命
+backlight	iluminación trasera	バックライト
+balance correction	corrección de balanceo	バランス修正
+balance sheet	balance general	貸借対照表
+balancing	balanceo	バランス調整
+balancing machine	balanceadora	バランサー
+bandage	vendaje	包帯
+bank	banco	銀行
+bank guarantee	fianza bancaria	銀行保証
+bank transfer	transferencia bancaria	銀行振込
+barcode	código de barras	バーコード
+base salary	salario base	基本給
+batch production	producción en lotes	ロット生産
+bearing damage	rodamiento dañado	軸受損傷
+bearing failure	falla de rodamiento	軸受故障
+bearing pressing	inserción de rodamiento	ベアリング圧入
+bearing shield	protector de rodamiento	ベアリングシールド
+bearing temperature	temperatura de rodamiento	軸受温度
+bench test	prueba de banco	ベンチテスト
+bending	doblado	曲げ加工
+Bendix drive	Bendix	ベンディックスドライブ
+benefits	prestaciones	福利厚生
+billing	facturación	請求処理
+biweekly pay	quincena	2週間給与
+board of directors	junta directiva	取締役会
+bolt	tornillo	ボルト
+bottleneck	cuello de botella	ボトルネック
+breach	incumplimiento	違反
+break-even point	punto de equilibrio	損益分岐点
+breathing apparatus	equipo de respiración	呼吸保護具
+brush	escobilla	ブラシ
+brush assembly	conjunto escobillas	ブラシ組立品
+brush cover	cubierta de escobillas	ブラシカバー
+brush guide	guía de escobilla	ブラシガイド
+brush holder	portaescobillas	ブラシホルダー
+brush spring	resorte de escobilla	ブラシスプリング
+brush springs	resortes de escobilla	ブラシスプリング
+brush wear	desgaste de escobillas	ブラシ摩耗
+bubble removal	eliminación de burbujas	気泡除去
+budget	presupuesto	予算
+budget variance	variación presupuestaria	予算差異
+burn injury	quemadura	火傷
+bus bar	barra conductora	バスバー
+bushing	casquillo	ブッシュ
+business continuity	continuidad del negocio	事業継続
+business continuity plan	plan BCP	BCP（事業継続計画）
+business ethics	ética empresarial	企業倫理
+CAE simulation	simulación CAE	CAE解析
+calibration	calibración	校正
+calibration certificate	certificado de calibración	校正証明書
+calibration standard	patrón de calibración	校正標準
+camshaft position sensor	sensor de posición de árbol de levas	カム角センサー
+camshaft timing error	desfase de árbol de levas	カム位相ずれ
+CAN failure	falla CAN	CAN通信故障
+CAN network	red de comunicación CAN	CAN通信
+candidate	candidato	候補者
+candidate rejection	rechazo de candidato	不採用通知
+carbon brush	escobilla de carbón	カーボンブラシ
+carbon brushes	carbones del motor	ブラシ
+cardiopulmonary resuscitation	reanimación cardiopulmonar	心肺蘇生
+cash flow	flujo de efectivo	キャッシュフロー
+casualty evacuation	evacuación de heridos	負傷者搬送
+cause analysis	análisis de causa	原因解析
+central control	control central	中央制御
+centralized control	control centralizado	集中制御
+ceramic capacitor	capacitor cerámico	セラミックコンデンサ
+certification	certificación	認証
+change production sequence	cambiar secuencia de producción	生産順序変更
+change supplier	cambiar proveedor	サプライヤー変更
+changeover time	tiempo de cambio	段取り替え時間
+charging unit	unidad de carga	充電ユニット
+chassis	chasis	シャシ
+check engine light on	Check Engine encendido	エンジン警告灯点灯
+checklist	lista de verificación	点検チェックリスト
+chemical base	base química	アルカリ
+chemical classification	clasificación química	化学分類
+chemical compatibility	compatibilidad química	化学適合性
+chemical exposure	exposición química	化学暴露
+chemical hazard zone	zona de riesgo químico	化学危険区域
+chemical leak evacuation	evacuación por fuga química	化学物質漏洩避難
+chemical PPE	equipo de protección química	化学防護具
+chemical reaction	reacción química	化学反応
+chemical resistant gloves	guantes resistentes químicos	耐薬品手袋
+chemical spill	derrame químico	化学物質漏洩
+chemical stability	estabilidad química	化学安定性
+chemical storage	almacenamiento químico	化学物質保管
+chemical substance	sustancia química	化学物質
+chemical suit	traje químico	防護服
+chemical waste	residuos químicos	化学廃棄物
+CIF	CIF	CIF（運賃保険料込み）
+circuit board	placa de circuito	基板
+circuit breaker	interruptor automático	ブレーカー
+civil liability	responsabilidad civil	民事責任
+claim	reclamo	クレーム
+clamp meter	pinza amperimétrica	クランプメータ
+class A fire	clase de fuego A	A火災
+class B fire	clase de fuego B	B火災
+class C fire	clase de fuego C	C火災
+clause	cláusula	条項
+claw pole rotor	rotor de garra	クローポールローター
+cleaning standard	estándar de limpieza	清掃基準
+clear evacuation path	ruta libre de obstáculos	避難経路確保
+clearance adjustment	ajuste de holgura	クリアランス調整
+clock oscillator	oscilador de reloj	クロック発振器
+clogged oil filter	filtro de aceite saturado	オイルフィルター詰まり
+closed loop control	control en lazo cerrado	閉ループ制御
+clutch roller	rodillo de embrague	クラッチローラー
+cobot	cobot	協働ロボット
+code of conduct	código de conducta	行動規範
+cognitive load	carga cognitiva	認知負荷
+coil	bobina	コイル
+coil compaction	compactación de bobina	コイル圧縮
+coil forming	formado de bobina	コイル成形
+coil insertion	inserción de bobina	コイル挿入
+coil lacing	amarre de bobina	コイル結束
+coil spring	resorte helicoidal	コイルスプリング
+cold solder joint	soldadura fría	コールドジョイント
+collaborative robot	robot colaborativo	協働ロボット
+collector bus	barra colectora	集電バー
+collector ring	colector	コレクターリング
+color coding	código de colores	色分け
+comfort zone	zona de confort	快適領域
+commercial dispute	disputa comercial	商業紛争
+communication failure	fallo de comunicación	通信障害
+communication loss	pérdida de comunicación	通信異常
+communication port	puerto de comunicación	通信ポート
+communication protocol	protocolo de comunicación	通信プロトコル
+commutator	conmutador	コミュテータ
+compliance	cumplimiento	コンプライアンス
+compliance evaluation	evaluación de cumplimiento	適合性評価
+component failure	fallo de componente	部品故障
+component height	altura de componente	部品高さ
+component placement	colocación de componentes	部品実装
+component replacement	reemplazo de componente	部品交換
+compressed gas	gas comprimido	圧縮ガス
+compression spring	resorte de compresión	圧縮ばね
+concentricity	concentricidad	同心度
+concentricity check	verificación de concentricidad	同心度確認
+concept design	diseño conceptual	概念設計
+condition monitoring	monitoreo de condición	状態監視
+condition-based maintenance	mantenimiento basado en condición	状態基準保全
+confidentiality	confidencialidad	機密保持
+confined space	espacio confinado	密閉空間
+confined space rescue	rescate en espacio confinado	密閉空間救助
+conformal coating	recubrimiento conformal	防湿コーティング
+conforming product	producto conforme	適合品
+conformity	conformidad	適合
+conformity assessment	evaluación de conformidad	適合性評価
+connection plate	placa de conexión	接続板
+connector	conector	コネクター
+contact failure	falla de contacto	接触不良
+container	contenedor	コンテナ
+contaminant	contaminante	汚染物質
+contamination	contaminación	汚染
+contingency plan	plan de contingencia	緊急対応計画
+continuity test	prueba de continuidad	導通試験
+continuous flow	flujo continuo	連続フロー
+continuous improvement	mejora continua	継続的改善
+continuous improvement system	mejora continua total	継続改善システム
+continuous line flow	flujo continuo de línea	連続ラインフロー
+continuous training	capacitación continua	継続教育
+contract	contrato	契約
+contract compliance	cumplimiento de contrato	契約遵守
+contract renewal	renovación de contrato	契約更新
+contract review	revisión de contrato	契約確認
+contract signing	firma de contrato	契約締結
+contributing factors	factores contribuyentes	影響要因
+control algorithm	algoritmo de control	制御アルゴリズム
+control center	centro de control	管制室
+control chart	carta de control	管理図
+control chip	chip controlador	制御チップ
+control circuit	circuito de control	制御回路
+control firmware	firmware de control	制御ファームウェア
+control logic	lógica de control	制御ロジック
+control module	módulo de control	制御モジュール
+control panel	panel de control	制御盤
+control plan	plan de control	コントロールプラン
+control point	punto de control	管理点
+control software	software de control	制御ソフトウェア
+control strategy	estrategia de control	制御戦略
+control system	sistema de control	制御システム
+controlled draining	goteo controlado	液切り工程
+controlled fastening	fijación controlada	管理締付
+conveyor belt	banda transportadora	コンベア
+coolant	refrigerante	冷却液
+cooling	refrigeración	冷却
+cooling chamber	cámara de enfriamiento	冷却室
+cooling plate	placa disipadora	冷却プレート
+coordinate measuring machine	máquina de medición por coordenadas	三次元測定機
+copper wire	alambre de cobre	銅線
+copyright	derechos de autor	著作権
+core stacking	laminación de núcleo	コア積層
+corporate governance	gobierno corporativo	コーポレートガバナンス
+corporate lawyer	abogado corporativo	企業弁護士
+corporate risk	riesgo corporativo	企業リスク
+corrective action	acción correctiva	是正処置
+corrective maintenance	mantenimiento correctivo	事後保全
+corrosive substance	sustancia corrosiva	腐食性物質
+corrupted firmware	firmware corrupto	ファームウェア破損
+cost	costo	原価
+cost accounting	contabilidad de costos	原価計算
+cost center	centro de costos	コストセンター
+cost reduction	reducción de costos	コスト削減
+costing	costeo	原価計算
+counterweight	contrapeso	カウンターウェイト
+court	tribunal	裁判所
+cranking speed	velocidad de arranque	始動回転数
+cranking voltage	voltaje de arranque	始動電圧
+crankshaft position sensor	sensor de cigüeñal	クランク角センサー
+crimping	engarzado	圧着
+crisis audit	auditoría de crisis	危機監査
+crisis communication	comunicación de crisis	危機広報
+crisis coordinator	coordinador de crisis	危機管理責任者
+crisis investigation	investigación de crisis	危機調査
+crisis management	gestión de crisis	危機管理
+crisis room	sala de crisis	危機管理室
+crisis simulation	simulación de crisis	危機シミュレーション
+critical characteristic	característica crítica	重要特性
+critical defect	defecto crítico	重大不良
+critical incident	incidente crítico	重大インシデント
+cross docking	cross docking	クロスドッキング
+crowd control	control de multitudes	群衆制御
+current control	control de corriente	電流制御
+current draw	consumo de corriente	電流消費
+current leakage	fuga de corriente	漏電
+current measurement	medición de corriente	電流測定
+current sensor	sensor de corriente	電流センサー
+current shunt	derivador de corriente	シャント抵抗
+customer	cliente	顧客
+customer approval	aprobación de cliente	顧客承認
+customer demand	demanda del cliente	顧客需要
+customer requirement	requisito del cliente	顧客要求
+customer requirements	requisitos del cliente	顧客要求事項
+customer satisfaction	satisfacción del cliente	顧客満足
+cycle time	tiempo ciclo	サイクルタイム
+cycle time out of standard	tiempo de ciclo fuera de estándar	サイクルタイム逸脱
+cycle time reduction	reducción de ciclo	サイクル短縮
+cylindricity	cilindricidad	円筒度
+daily production	producción diaria	日次生産
+damaged actuator	actuador dañado	アクチュエータ故障
+damper coil	bobina amortiguadora	ダンパーコイル
+data acquisition	recolección de datos	データ収集
+data historian	historiador de datos	データヒストリアン
+data protection	protección de datos	データ保護
+day shift	turno diurno	日勤
+DC motor	motor DC	DCモーター
+DC-DC converter	convertidor CC-CC	DC-DCコンバーター
+de-energized equipment	equipo desenergizado	非通電設備
+deburring	remoción de rebaba	バリ取り
+decontamination	descontaminación	除染
+deductions	deducciones	控除
+deep drawing	embutido	絞り加工
+defect	defecto	不良
+defect classification	clasificación de defecto	不良分類
+defect detection	detección de defecto	欠陥検出
+defect history	historial de defecto	不良履歴
+defect rate	tasa de defectos	不良率
+defective product	producto defectuoso	不良品
+defects	defectos	不良
+defibrillator	desfibrilador	除細動器
+deformation	deformación	変形
+degraded mode	modo degradado	制限モード
+degraded oil	aceite degradado	劣化オイル
+degreaser	desengrasante	脱脂剤
+degreasing	desengrase	脱脂処理
+delay penalty	penalización por retraso	遅延罰金
+delivery date	fecha de entrega	納期
+delivery delay	retraso de entrega	納期遅延
+delivery time	tiempo de entrega	納期
+demand control	control de demanda	需要管理
+demand forecast	pronóstico de demanda	需要予測
+depreciation	depreciación	減価償却
+design engineering	ingeniería de diseño	設計工学
+design FMEA	DFMEA	設計FMEA
+design improvement	mejora de diseño	設計改善
+design validation	validación de diseño	設計妥当性確認
+design verification	verificación de diseño	設計検証
+detailed design	diseño detallado	詳細設計
+detection circuit	circuito detector	検出回路
+diagnostic connector	conector de diagnóstico	診断コネクター
+diagnostic unit	unidad de diagnóstico	診断ユニット
+dial indicator	reloj comparador	ダイヤルゲージ
+die cutting	troquelado	打抜き加工
+dielectric spacer	separador dieléctrico	誘電スペーサー
+dielectric test	prueba dieléctrica	耐電圧試験
+differential	diferencial	ディファレンシャル
+differential protection	protección diferencial	漏電保護
+digital evidence	evidencia digital	デジタル証拠
+digital Hall sensor	sensor Hall digital	デジタルホールセンサー
+digital inputs	entradas digitales	デジタル入力
+digital outputs	salidas digitales	デジタル出力
+digital signal	señal digital	デジタル信号
+digital speedometer	velocímetro digital	デジタルメーター
+dimensional adjustment	ajuste dimensional	寸法調整
+dimensional tolerance	tolerancia dimensional	寸法公差
+dimensional verification	verificación dimensional	寸法確認
+diode	diodo	ダイオード
+diode bracket	soporte de diodo	ダイオードブラケット
+diode failure	falla de diodo	ダイオード故障
+diode holder	portadiodo	ダイオードホルダー
+disaster recovery	recuperación de desastres	災害復旧
+discount	descuento	割引
+dismissal	despido	解雇
+dispatch	despacho	出荷指示
+display driver	driver de pantalla	ドライバIC
+distributed control	control distribuido	分散制御
+distribution center	centro de distribución	配送センター
+document control	control de documentos	文書管理
+document evidence	evidencia documental	文書証拠
+document management	gestión documental	文書管理システム
+double check	verificación doble	ダブルチェック
+dowel pin	pasador guía	ダウエルピン
+downtime	tiempo muerto	停止時間
+drill correction	corrección por taladrado	修正穴加工
+drilling	taladrado	穴あけ加工
+drive lever	palanca de arrastre	ドライブレバー
+drive shaft	eje de transmisión	ドライブシャフト
+driver circuit	circuito excitador	ドライバー回路
+DTC P0011	código de falla P0011	故障コードP0011
+DTC P0012	código de falla P0012	故障コードP0012
+DTC P0013	código de falla P0013	故障コードP0013
+dust cover	cubierta antipolvo	ダストカバー
+dynamic balancing	balanceo dinámico	動的バランス
+dynamic centering	centrado dinámico	動的芯出し
+ear plugs	tapones auditivos	耳栓
+early failure	falla prematura	初期故障
+early fault	fallo incipiente	初期異常
+early leave	salida anticipada	早退
+earthquake	terremoto	地震
+earthquake evacuation	evacuación por sismo	地震避難
+eccentricity measurement	medición de excentricidad	偏心測定
+ECU calibration	calibración ECU	ECUキャリブレーション
+ECU learning	adaptación de ECU	ECU学習
+ECU reset	reinicio ECU	ECUリセット
+EEPROM memory	memoria EEPROM	EEPROMメモリ
+effectiveness verification	verificación de eficacia	効果確認
+efficiency	eficiencia	効率
+elasticity	elasticidad	弾性
+electric current	corriente eléctrica	電流
+electric motor	motor eléctrico	電動機
+electric shock	descarga eléctrica	感電
+electrical cabinet	gabinete eléctrico	電気制御盤
+electrical contact	contacto eléctrico	電気接点
+electrical failure	falla eléctrica	電気故障
+electrical fire	fuego eléctrico	電気火災
+electrical hazard	peligro eléctrico	電気危険
+electrical insulation	aislamiento eléctrico	絶縁
+electrical load	carga eléctrica	電気負荷
+electrical lockout	bloqueo eléctrico	電気ロックアウト
+electrical losses	pérdidas eléctricas	電気損失
+electrical LOTO	LOTO eléctrico	電気ロックアウトタグアウト
+electrical measurement	medición eléctrica	電気測定
+electrical noise	ruido eléctrico	電気ノイズ
+electrical output	salida eléctrica	出力
+electrical overload	sobrecarga eléctrica	過負荷
+electrical panel	tablero eléctrico	配電盤
+electrical PPE	EPP eléctrico	電気用保護具
+electrical resistance	resistencia eléctrica	電気抵抗
+electrical safety	seguridad eléctrica	電気安全
+electrical starter failure	falla eléctrica del starter	スターター電気故障
+electrical substation	subestación eléctrica	変電所
+electrical tagout	etiquetado eléctrico	電気タグアウト
+electrical terminal	terminal eléctrico	端子
+electrical test	prueba eléctrica	電気試験
+electrical verification	verificación eléctrica	電気確認
+electrical work permit	permiso de trabajo eléctrico	電気作業許可
+electrocoating	cataforesis	電着塗装
+electrolytic capacitor	capacitor electrolítico	電解コンデンサ
+electromagnetic actuation	actuación electromagnética	電磁アクチュエーション
+electromagnetic compatibility	compatibilidad electromagnética	電磁両立性
+electromagnetic shield	blindaje electromagnético	電磁シールド
+electronic actuator	actuador electrónico	電子アクチュエータ
+electronic board	tarjeta electrónica	電子基板
+electronic control unit	ECU automotriz	ECU
+electronic cover	cubierta electrónica	電子カバー
+electronic injection	inyección electrónica	電子燃料噴射
+electronic module	módulo electrónico	電子モジュール
+electronic quality control	control de calidad electrónico	電子品質管理
+electronics assembly	conjunto electrónico	電子組立品
+electronics bracket	soporte electrónico	電子ブラケット
+electrostatic painting	pintura electrostática	静電塗装
+embedded firmware	firmware embebido	組込みファームウェア
+embedded software	software embebido	組込みソフト
+embedded system	sistema embebido	組込みシステム
+emergency	emergencia	緊急事態
+emergency alarm	alarma de emergencia	非常警報
+emergency brigade	brigada de emergencia	緊急対応班
+emergency button	botón de emergencia	非常ボタン
+emergency care	atención de emergencia	緊急医療
+emergency closure	cierre de emergencia	緊急閉鎖
+emergency committee	comité de emergencia	緊急対策本部
+emergency communication	comunicación de emergencia	緊急連絡
+emergency door	puerta de emergencia	非常ドア
+emergency drill	simulacro de emergencia	避難訓練
+emergency exit	salida de emergencia	非常口
+emergency kit	botiquín de emergencia	応急救急箱
+emergency light	luz de emergencia	非常照明
+emergency maintenance	mantenimiento de emergencia	緊急保全
+emergency message	mensaje de emergencia	緊急メッセージ
+emergency plan	plan de emergencia	緊急計画
+emergency preparedness	preparación de emergencia	緊急準備
+emergency protocol	protocolo de emergencia	緊急プロトコル
+emergency response	respuesta a emergencia	緊急対応
+emergency status	estado de emergencia	緊急状態
+emergency stop	paro de emergencia	非常停止
+EMI interference	interferencia EMI	電磁干渉
+EMI shield	protector EMI	EMIシールド
+EMI suppressor	supresor EMI	EMI抑制器
+emission reduction	reducción de emisiones	排出ガス低減
+employee development	desarrollo del personal	人材育成
+employee file	expediente del empleado	社員ファイル
+employee productivity	productividad por empleado	従業員生産性
+employee registration	alta de empleado	社員登録
+employee termination	baja de empleado	退職処理
+employee turnover	turnover de personal	離職率
+employer branding	marca empleadora	企業ブランド
+employment agency	agencia de empleo	人材紹介会社
+employment contract	contrato laboral	雇用契約
+enamel stripping	pelado de esmalte	被膜除去
+encapsulation	encapsulado	封止処理
+encoder	encoder	エンコーダ
+end turn forming	conformado de cabezal	コイルエンド成形
+energized equipment	equipo energizado	帯電設備
+energy efficiency	eficiencia energética	エネルギー効率
+energy isolation	bloqueo de energía	エネルギー遮断
+energy management	gestión energética	エネルギー管理
+energy recovery	recuperación de energía	エネルギー回生
+engagement fork	horquilla de engrane	噛み合いフォーク
+engagement system	sistema de engrane	噛み合い機構
+engine assembly	ensamble de motor	エンジン組立
+engine control module	módulo de control del motor	エンジン制御モジュール
+engine control unit	ECU motor	エンジンECU
+engine cranking	motor de combustión en arranque	クランキング
+engine knock	golpeteo de motor	ノッキング
+engine map	mapa de motor	エンジンマップ
+engine relearn	reaprendizaje de motor	エンジン再学習
+engineering control	control de ingeniería	工学的対策
+engineering controls	controles de ingeniería	工学的対策
+enterprise resource planning	ERP	ERP
+environment	medio ambiente	環境
+environment health safety	EHS	EHS（環境・安全・衛生）
+environmental chamber	cámara climática	環境試験機
+environmental condition	condición ambiental	環境条件
+environmental standard	norma ambiental	環境規格
+epoxy resin	resina epóxica	エポキシ樹脂
+equipment availability	disponibilidad de equipo	設備稼働率
+equipment calibration	calibración de equipo	設備校正
+equipment cleaning	limpieza de equipo	設備清掃
+equipment diagnosis	diagnóstico de equipo	設備診断
+equipment efficiency	eficiencia del equipo	設備効率
+equipment failure	falla de equipo	設備故障
+equipment health	salud del equipo	設備健全性
+equipment history	historial de equipo	設備履歴
+equipment improvement	mejora de equipo	設備改善
+equipment inspection	inspección de equipo	設備点検
+equipment reliability	confiabilidad de equipo	設備信頼性
+equipment reset	reset de equipo	設備リセット
+equipment utilization	utilización de equipo	設備稼働率
+equipment vibration	vibración de equipo	設備振動
+ergonomic assessment	evaluación ergonómica	人間工学評価
+ergonomic hazard zone	zona de peligro ergonómico	人間工学危険区域
+ergonomic risk	riesgo ergonómico	人間工学リスク
+ergonomics	ergonomía	人間工学
+erratic ECU signal	señal errática ECU	ECU信号異常
+erratic signal	señal errática	信号異常
+error code	código de error	エラーコード
+error proofing	error proofing	ミス防止
+escape mask	máscara de escape	防毒マスク
+Ethernet/IP	Ethernet/IP	イーサネット/IP
+evacuation	evacuación	避難
+evacuation coordinator	coordinador de evacuación	避難責任者
+evacuation map	plano de evacuación	避難図
+evacuation route	ruta de evacuación	避難経路
+evacuation siren	sirena de evacuación	避難サイレン
+evacuation time	tiempo de evacuación	避難時間
+evaporation	evaporación	蒸発
+event chain	cadena de eventos	事象連鎖
+event timeline	cronología del evento	時系列記録
+event traceability	trazabilidad del evento	事象トレーサビリティ
+evidence preservation	preservación de evidencia	証拠保全
+excessive vibration	vibración excesiva	過振動
+excitation	excitación	励磁
+excitation current	corriente de excitación	励磁電流
+exciter coil	bobina inductora	励磁コイル
+exclusion zone	zona de exclusión	立入禁止区域
+exhaust phase	fase de escape	排気位相
+exit interview	entrevista de salida	退職面談
+expenses	gastos	費用
+explosive substance	sustancia explosiva	爆発性物質
+exposure limit	límite de exposición	曝露限界
+external audit	auditoría externa	外部監査
+external auditor	auditor externo	外部監査人
+external contamination	contaminación externa	外部汚染
+external fan	ventilador externo	外部ファン
+external recruitment	reclutamiento externo	中途採用
+extinguishing agent	agente extintor	消火剤
+extra hours	jornada extra	超過勤務
+factory automation	automatización de fábrica	ファクトリーオートメーション
+failure analysis	análisis de falla	故障解析
+failure cause	causa de falla	故障原因
+failure elimination	eliminación de fallas	故障排除
+failure history	historial de fallas	故障履歴
+failure mode	modo de falla	故障モード
+failure mode and effects analysis	análisis de modo y efecto de falla	故障モード影響解析
+failure pattern	patrón de falla	故障パターン
+failure prediction	predicción de falla	故障予測
+failure rate	tasa de fallas	故障率
+fan assembly	conjunto ventilador	ファン組立品
+fatigue reduction	reducción de fatiga	疲労軽減
+fault code	código de falla	故障コード
+fault diagnosis	diagnóstico de falla	故障診断
+fault indicator	indicador de falla	故障表示器
+fault tree analysis	árbol de fallas	故障の木解析
+faulty cam sensor	sensor de camshaft defectuoso	カムセンサー故障
+faulty crank sensor	sensor de crank defectuoso	クランクセンサー故障
+faulty ECU	ECU defectuosa	ECU故障
+faulty PWM signal	señal PWM defectuosa	PWM信号異常
+faulty rectifier	rectificador defectuoso	整流器不良
+faulty sensor	sensor defectuoso	センサー異常
+faulty voltage regulator	regulador de voltaje defectuoso	電圧レギュレータ不良
+feedback	retroalimentación	フィードバック
+feedback circuit	circuito de realimentación	フィードバック回路
+ferromagnetic material	material ferromagnético	強磁性材料
+field analysis	análisis de campo	フィールド解析
+field coil	bobina de campo	フィールドコイル
+field return	retorno de campo	フィールド返品
+field VVT failure	falla de VVT en campo	VVT市場故障
+final assessment	evaluación final	最終評価
+final inspection	inspección final	最終検査
+final selection	selección final	最終選考
+finance	finanzas	財務
+financial balance	balance financiero	財務バランス
+financial control	control financiero	財務管理
+financial guarantee	garantía financiera	金融保証
+financial report	reporte financiero	財務報告書
+financial risk	riesgo financiero	財務リスク
+finished goods	producto terminado	完成品
+finite element method	elemento finito	有限要素法
+fire alarm system	sistema de alarma contra incendios	火災警報装置
+fire brigade	brigada contra incendios	消防隊
+fire evacuation	evacuación de incendio	火災避難
+fire extinguisher	extintor	消火器
+fire helmet	casco de bombero	消防ヘルメット
+fire hose	manguera contra incendios	消火ホース
+fire hydrant	hidrante	消火栓
+fire prevention	prevención de incendios	防火
+fire protection	protección contra incendios	防火対策
+fire resistant jacket	chaqueta ignífuga	防火服
+fire system	sistema contra incendios	消火システム
+firefighting equipment	equipo contra incendios	消火設備
+firefighting foam	espuma contra incendios	消火泡
+firmware	firmware	ファームウェア
+first aid	primeros auxilios	応急処置
+first aid kit	botiquín	救急箱
+first article	primera pieza	初品
+first article inspection	verificar primera pieza	初品確認
+first in first out	FIFO	先入れ先出し（FIFO）
+fiscal year	año fiscal	会計年度
+fishbone diagram	diagrama de espina de pescado	特性要因図
+five whys	cinco porqués	なぜなぜ分析
+fixed core	núcleo fijo	固定鉄心
+fixing plate	placa de fijación	固定板
+flammable gas	gas inflamable	可燃性ガス
+flammable substance	sustancia inflamable	可燃性物質
+flatness	planitud	平面度
+FlexRay	FlexRay	フレックスレイ
+flood	inundación	洪水
+flow diagram	diagrama de flujo	フローダイアグラム
+flywheel	volante de motor	フライホイール
+flywheel ring gear	corona del volante	フライホイールリングギア
+FMEA	FMEA	FMEA（故障モード影響解析）
+FOB	FOB	FOB（本船渡し）
+forensic analysis	análisis forense	フォレンジック分析
+framework agreement	acuerdo marco	基本契約
+fraud	fraude	詐欺
+frequency inverter	inversor de frecuencia	インバータ制御
+friction	fricción	摩擦
+front bearing	rodamiento delantero	フロントベアリング
+front cover	tapa frontal	フロントカバー
+front flange	brida frontal	フロントフランジ
+front housing	carcasa delantera	フロントハウジング
+front panel	panel frontal	フロントパネル
+full load	plena carga	全負荷
+functional safety	seguridad funcional	機能安全
+functional test	prueba funcional	機能試験
+functional verification	verificación funcional	機能確認
+fuse	fusible	ヒューズ
+galvanizing	galvanizado	亜鉛メッキ
+gas cylinder	cilindro de gas	ガスボンベ
+gas inhalation	inhalación de gases	ガス吸入
+gas leak	fuga de gas	ガス漏れ
+gasket	junta de sellado	ガスケット
+gauge repeatability & reproducibility	GR&R	GR&R（測定器評価）
+gear ratio	relación de engranaje	ギア比
+gear wear	desgaste de engranaje	ギア摩耗
+Gemba	Gemba	現場
+Gemba walk	Gemba walk	現場巡視
+general accounting	contabilidad general	一般会計
+general ledger	libro mayor	総勘定元帳
+geometric correction	corrección geométrica	幾何補正
+GHS label	etiqueta GHS	GHSラベル
+global corrective action	acción correctiva global	全社是正処置
+go and see	Genchi Genbutsu	現地現物
+go/no-go gauge	calibre pasa no pasa	ゲージ
+grease	grasa	グリース
+grease application	aplicación de grasa	グリース塗布
+grinding	rectificado	研削加工
+gross profit	ganancia bruta	粗利益
+gross salary	salario bruto	総支給額
+ground connection	masa eléctrica	アース
+ground fault	fallo a tierra	地絡
+ground terminal	terminal de tierra	アース端子
+grounding	tierra física	接地
+Hall sensor	sensor Hall	ホールセンサー
+hazard	peligro	危険源
+hazard area	zona de riesgo	危険区域
+hazard category	categoría de riesgo	危険カテゴリ
+hazard elimination	eliminación del peligro	危険源除去
+hazard identification	identificación de peligros	危険源特定
+hazard pictogram	pictograma de peligro	危険ピクトグラム
+hazardous atmosphere	atmosfera peligrosa	危険雰囲気
+hazardous energy	energía peligrosa	危険エネルギー
+hazardous material	material peligroso	危険物
+hazardous substance	sustancia peligrosa	危険物質
+head unit	unidad principal	ヘッドユニット
+headcount	headcount	人員数
+headcount point	punto de conteo	人員確認場所
+health safety environment	HSE	安全衛生環境
+hearing protection	protección auditiva	聴覚保護
+heat deflector	deflector térmico	熱遮蔽板
+heat detector	detector de calor	熱感知器
+heat dissipation	disipación térmica	放熱
+heat generation	calor generado	発熱
+heat sink	disipador térmico	ヒートシンク
+heat stress	estrés térmico	熱ストレス
+Heijunka box	Heijunka box	平準化ボックス
+hemorrhage	hemorragia	出血
+hi-pot test	prueba Hi-Pot	耐電圧試験
+hierarchy of controls	jerarquía de controles	対策優先順位
+high efficiency	alta eficiencia	高効率
+high emissions	emisiones elevadas	排出ガス増加
+high fuel consumption	alto consumo de combustible	燃費悪化
+high risk zone	zona de riesgo alto	高リスク区域
+high temperature	temperatura alta	高温
+high voltage	alta tensión	高電圧
+high WIP level	WIP elevado	仕掛品過多
+high-angle rescue	rescate en altura	高所救助
+hiring	contratación	雇用
+hiring culture	cultura de contratación	採用文化
+HMI screen	pantalla HMI	HMI画面
+hold product	producto retenido	保留品
+hot work	trabajo en caliente	火気作業
+hourly cost	costo por hora	時間単価
+hourly production	producción por hora	時間生産
+housekeeping	orden y limpieza	整理整頓
+housing reinforcement	refuerzo de carcasa	ハウジング補強材
+human error prevention	prevención de errores humanos	ヒューマンエラー防止
+human factor	factor humano	ヒューマンファクター
+human factors	factores humanos	ヒューマンファクター
+human loss	pérdida humana	人的損失
+human machine interface	interface HMI	HMI
+human resources	recursos humanos	人事部
+hurricane	huracán	ハリケーン
+hybrid electronics assembly	conjunto electrónico híbrido	ハイブリッド電子組立品
+hybrid system	sistema híbrido	ハイブリッドシステム
+hydraulic control	control hidráulico	油圧制御
+hydraulic solenoid	solenoide hidráulico	油圧ソレノイド
+hydrochloric acid	ácido clorhídrico	塩酸
+IATF 16949	IATF 16949	IATF16949
+IATF compliance	cumplimiento IATF	IATF適合
+ID badge	credencial	身分証
+identification engraving	grabado de identificación	識別刻印
+IEC 61508 standard	norma IEC 61508	IEC61508規格
+IG terminal	terminal IG	IG端子
+ignition key	llave de encendido	イグニッションキー
+ignition switch	interruptor de encendido	イグニッションスイッチ
+imbalance	desbalanceo	アンバランス
+immediate containment action	acción de contención inmediata	即時封じ込め対応
+immediate repair	reparación inmediata	緊急修理
+immobilizer	inmovilizador	イモビライザー
+impact assessment	evaluación de impacto	影響評価
+impregnation	impregnación	含浸
+in-line defect	defecto en línea	ライン不良
+in-line inspection	inspección en línea	ライン内検査
+in-line production	producción en línea	ライン生産
+in-line quality control	control de calidad en línea	工程内品質管理
+in-line rework	retrabajo en línea	ライン手直し
+in-process inspection	inspección en proceso	工程内検査
+in-process inventory	inventario en proceso	工程内在庫
+in-process quality	calidad en proceso	工程内品質
+incentives	incentivos	インセンティブ
+incident	incidente	インシデント
+incident command	comando de incidentes	現場指揮
+incident energy	energía incidente	入射エネルギー
+incident escalation	escalamiento del incidente	インシデントエスカレーション
+incident investigation	investigación de incidente	インシデント調査
+incident record	registro de incidente	インシデント記録
+incident report	reporte de incidente	インシデント報告
+incident reporting	notificación de incidentes	インシデント報告
+income statement	estado de resultados	損益計算書
+incoming inspection	inspección de entrada	受入検査
+incoming quality control	control de calidad proveedor	受入品質管理
+incorrect duty cycle	ciclo de trabajo incorrecto	デューティ比異常
+incorrect torque	torque incorrecto	トルク不良
+incorrect viscosity	viscosidad incorrecta	粘度不良
+Incoterms	Incoterms	インコタームズ
+inductance	inductancia	インダクタンス
+induction welding	soldadura por inducción	誘導溶接
+inductive sensor	sensor inductivo	誘導センサー
+industrial automation	automatización industrial	産業オートメーション
+industrial big data	Big Data industrial	産業ビッグデータ
+industrial camera	cámara industrial	工業用カメラ
+industrial communication	comunicación industrial	産業通信
+industrial cybersecurity	ciberseguridad industrial	産業サイバーセキュリティ
+industrial dashboard	dashboard industrial	ダッシュボード
+industrial data protection	protección de datos industriales	産業データ保護
+industrial Ethernet	Ethernet industrial	産業用イーサネット
+industrial explosion	explosión industrial	工場爆発
+industrial fire	incendio industrial	工場火災
+industrial grease	grasa industrial	工業用グリース
+industrial hygiene	higiene industrial	産業衛生
+industrial internet	internet industrial	産業用IoT
+industrial internet of things	IIoT	IIoT
+industrial IoT	internet industrial de las cosas	産業IoT
+industrial lighting	iluminación industrial	工場照明
+industrial maintenance	mantenimiento industrial	産業保全
+industrial network	red industrial	産業ネットワーク
+industrial noise	ruido industrial	騒音
+industrial oil	aceite industrial	工業用油
+industrial power supply	fuente de alimentación industrial	産業用電源
+industrial production	producción industrial	産業生産
+industrial rescue	rescate industrial	産業救助
+industrial resilience	resiliencia industrial	産業レジリエンス
+industrial robot	robot industrial	産業用ロボット
+industrial robotics	robótica industrial	産業用ロボット工学
+industrial safety	seguridad industrial	安全衛生
+industrial sensor	sensor industrial	産業センサー
+industrial solvent	solvente industrial	工業用溶剤
+industrial standards	normas industriales	業界規格
+industrial ventilation	ventilación industrial	換気設備
+Industry 4.0	Industria 4.0	インダストリー4.0
+initial evaluation	evaluación inicial	初期評価
+injection molding	moldeo por inyección	射出成形
+injured person	persona lesionada	負傷者
+injury assessment	evaluación de heridos	負傷評価
+injury prevention	prevención de lesiones	けが防止
+insertion depth	profundidad de inserción	挿入深さ
+inspection	inspección	検査
+inspection frequency	frecuencia de inspección	検査頻度
+inspection instruction	instrucción de inspección	検査要領書
+inspection level	nivel de inspección	検査水準
+inspection plan	plan de inspección	検査計画
+inspection point	punto de inspección	検査ポイント
+inspection routine	rutina de inspección	点検ルーチン
+inspection standard	estándar de inspección	検査基準書
+installation error	error de instalación	取付不良
+installed capacity	capacidad instalada	設備能力
+instrument cluster	panel de instrumentos	メーターパネル
+instrument verification	verificación de instrumento	測定器確認
+insulated gloves	guantes dieléctricos	絶縁手袋
+insulated tool	herramienta aislada	絶縁工具
+insulating bushing	casquillo aislante	絶縁ブッシュ
+insulating gasket	junta aislante	絶縁ガスケット
+insulating varnish	barniz aislante	絶縁ワニス
+insulation	aislamiento	絶縁
+insulation failure	falla de aislamiento	絶縁不良
+insulation measurement	medición de aislamiento	絶縁測定
+insulation paper	papel aislante	絶縁紙
+insulation resistance	resistencia de aislamiento	絶縁抵抗
+intake phase	fase de admisión	吸気位相
+integrated audit	auditoría integral	統合監査
+integrated control unit	unidad de control integrada	統合制御ユニット
+integrated LIN module	módulo LIN integrado	LIN内蔵モジュール
+integrated starter generator	generador integrado ISG	一体型スターター発電機
+intellectual property	propiedad intelectual	知的財産
+intermittent failure	falla intermitente	間欠故障
+intermittent OCV failure	falla intermitente de OCV	OCV間欠故障
+intermittent start	arranque intermitente	間欠始動
+internal audit	auditoría interna	内部監査
+internal auditor	auditor interno	内部監査員
+internal certification	certificación interna	社内認定
+internal communication	comunicación interna	社内コミュニケーション
+internal conductor	conductor interno	内部導体
+internal distribution	distribución interna	社内配送
+internal fan	ventilador interno	内部ファン
+internal fuse	fusible interno	内蔵ヒューズ
+internal mobility	movilidad interna	社内異動
+internal promotion	promoción interna	昇進
+internal recruitment	reclutamiento interno	社内登用
+internal resistance	resistencia interna	内部抵抗
+internal rules	reglamento interno	就業規則
+internal short circuit	cortocircuito interno	内部短絡
+international standard	norma internacional	国際規格
+interview	entrevista	面接
+inventory	inventario	在庫
+inventory control	control de inventario	在庫管理
+inventory level	nivel de inventario	在庫水準
+inventory management	gestión de inventario	在庫管理
+inventory turnover	rotación de inventario	在庫回転率
+inverter	inversor	インバータ
+inverter drive	variador de frecuencia	インバータ
+inverter failure	variador dañado	インバータ故障
+investment	inversión	投資
+invoice	factura	請求書
+IoT sensors	sensores IoT	IoTセンサー
+iron core	núcleo de hierro	鉄心
+ISO 14001	ISO 14001	ISO14001
+ISO 45001	ISO 45001	ISO45001
+ISO 9001	ISO 9001	ISO9001
+ISO certification	certificación ISO	ISO認証
+ISO standard	norma ISO	ISO規格
+Japanese industrial standard	norma JIS	日本産業規格
+Jidoka	Jidoka	自働化
+job application	solicitud de empleo	応募
+job board	bolsa de trabajo	求人サイト
+job competency	competencia laboral	職務能力
+job description	descripción de puesto	職務内容
+job induction	inducción al puesto	オリエンテーション
+job integration	integración laboral	職場適応
+job interview	entrevista laboral	面接
+job offer	oferta de trabajo	内定通知
+job profile	perfil de puesto	職務記述書
+job requirements	requisitos del puesto	必要条件
+job rotation	rotación de puestos	作業ローテーション
+job safety	seguridad laboral	労働安全
+job satisfaction	satisfacción laboral	職場満足
+job transfer	transferencia de puesto	配置転換
+job vacancy	vacante	求人
+journal	libro diario	日記帳
+journal entry	asiento contable	仕訳
+Just in Time	Just in Time	ジャストインタイム
+just in time production	producción JIT	ジャストインタイム生産
+Kaizen	Kaizen	改善
+Kanban	kanban	かんばん
+Kanban card	tarjeta Kanban	かんばんカード
+Kanban system	sistema kanban	かんばん方式
+keyless start system	sistema keyless	キーレススタート
+knurling	moleteado	ローレット加工
+KPI below target	KPI fuera de meta	KPI未達
+L terminal	terminal L	L端子
+labor conflict	conflicto laboral	労使紛争
+labor cost	costo laboral	人件費
+labor mediation	mediación laboral	労使調停
+labor union	sindicato	労働組合
+lack of production capacity	falta capacidad de producción	生産能力不足
+laminated core	núcleo laminado	積層コア
+lamination	laminación	積層板
+large spill	derrame masivo	大規模漏洩
+laser marking	marcado láser	レーザーマーキング
+laser welding	soldadura láser	レーザー溶接
+last in first out	LIFO	後入先出
+late arrival	llegada tardía	遅刻
+latent risk	riesgo latente	潜在リスク
+law	ley	法律
+lawsuit	demanda	訴え
+LC filter	filtro LC	LCフィルター
+LCD display	pantalla LCD	液晶ディスプレイ
+LCD module	módulo LCD	液晶モジュール
+lead auditor	auditor líder	主任監査員
+lead end forming	formación de terminales	リード端末成形
+lead joining	unión de derivaciones	リード接続
+lead soldering	soldado de derivación	リードはんだ付け
+lead time	lead time	リードタイム
+lead wire	cable conductor	リード線
+leadership	liderazgo	リーダーシップ
+leakage current	corriente de fuga	漏れ電流
+lean manufacturing	Lean manufacturing	リーン生産方式
+leave permission	permiso laboral	休暇申請
+legal audit	auditoría legal	法務監査
+legal compliance	cumplimiento legal	法令遵守
+legal counsel	asesor legal	法務顧問
+legal department	departamento legal	法務部
+legal dispute	conflicto legal	法的紛争
+legal documentation	documentación legal	法務書類
+legal liability	responsabilidad legal	法的責任
+legal record	acta legal	法的記録
+legal registration	registro legal	法的登録
+legal requirement	requisito legal	法的要求
+legal risk	riesgo legal	法的リスク
+lesson learned	lección aprendida	教訓
+liability	pasivo	負債
+license	licencia	ライセンス
+light curtain	cortina de luz	ライトカーテン
+lighting level	nivel de iluminación	照度
+limp mode	modo de emergencia ECU	フェイルセーフモード
+LIN failure	falla LIN	LIN通信故障
+LIN interface	interfaz LIN	LINインターフェース
+LIN protocol	protocolo LIN	LIN通信
+LIN transceiver	transceptor LIN	LINトランシーバー
+line automation	automatización de línea	ライン自動化
+line balancing	balance de línea	ラインバランス
+line efficiency	eficiencia de línea	ライン効率
+line feeding	suministro de línea	ライン供給
+line improvement	mejora de línea	ライン改善
+line stop	paro de línea	ライン停止
+line takt time	takt time de línea	ラインタクト
+linearity	linealidad	直線性
+liquidity	liquidez	流動性
+litigation	litigio	訴訟
+live work	trabajo energizado	帯電作業
+load consolidation	consolidación de carga	貨物集約
+load control	control de carga	負荷制御
+load detector	detector de carga	負荷検出器
+load leveling	nivelación de carga	負荷平準化
+load loss	pérdida de carga	負荷低下
+load test	prueba de carga	負荷試験
+loan	préstamo	ローン
+lock washer	arandela de seguridad	ロックワッシャー
+lockout tagout	bloqueo y etiquetado	ロックアウト・タグアウト
+logistic Kanban	kanban logístico	物流かんばん
+logistics	logística	物流
+logistics audit	auditoría logística	物流監査
+logistics route	ruta logística	物流ルート
+logistics traceability	trazabilidad logística	物流トレーサビリティ
+loss	pérdida	損失
+lot acceptance	aceptación de lote	ロット受入判定
+lot change	cambio de lote	ロット変更
+lot number	número de lote	ロット番号
+lot quarantine	cuarentena de lote	ロット隔離
+lot release	liberación de lote	ロット承認
+lot traceability	trazabilidad de lote	ロットトレーサビリティ
+low oil pressure	presión de aceite baja	油圧低下
+low oil pressure VVT	baja presión de aceite VVT	VVT油圧低下
+low output voltage	bajo voltaje de salida	出力低下
+lubricant	lubricante	潤滑剤
+lubricating grease	grasa lubricante	潤滑グリース
+lubricating oil	aceite lubricante	潤滑油
+lubrication	lubricación	潤滑
+lubrication point	punto de lubricación	給脂ポイント
+machine adjustment	ajuste de máquina	機械調整
+machine data	datos de máquina	機械データ
+machine guard	guardas de máquina	機械ガード
+machine guarding	protección de maquinaria	機械安全装置
+machine inspection	inspección de maquinaria	設備点検
+machine learning	Machine Learning	機械学習
+machine out of operation	máquina fuera de operación	設備停止中
+machine safety	seguridad de máquina	機械安全
+machine stop	paro de máquina	設備停止
+magnet wire	alambre magneto	マグネットワイヤー
+magnetic core	núcleo magnético	磁気コア
+magnetic field	campo magnético	磁場
+magnetic flux	flujo magnético	磁束
+magnetic plate	placa magnética	磁気プレート
+magnetic yoke	yugo magnético	ヨーク
+main contact	contacto principal	主接点
+maintainability	mantenibilidad	保全性
+maintenance checklist	checklist de mantenimiento	点検チェックリスト
+maintenance improvement	mejora de mantenimiento	保全改善
+maintenance record	registro de mantenimiento	保全記録
+maintenance standard	estándar de mantenimiento	保全標準
+major accident	accidente grave	重大事故
+major chemical leak	fuga química mayor	大規模化学漏洩
+major defect	defecto mayor	重要不良
+major emergency	emergencia mayor	重大緊急事態
+major nonconformity	no conformidad mayor	重大不適合
+mandatory training	capacitación obligatoria	必須教育
+manual assembly	ensamble manual	手作業組立
+manual lifting	levantamiento manual	手作業持ち上げ
+manufacturing cell	celda de manufactura	製造セル
+manufacturing engineering	ingeniería de manufactura	製造技術
+manufacturing execution system	MES	MES（製造実行システム）
+manufacturing process	proceso de fabricación	製造工程
+manufacturing validation	validación de manufactura	製造妥当性確認
+market withdrawal	retiro de mercado	市場回収
+mask	mascarilla	マスク
+mass balancing	equilibrado de masa	質量バランス調整
+mass hiring	contratación masiva	一括採用
+mass notification	notificación masiva	一斉通知
+mass production	producción en masa	量産
+master instrument	instrumento patrón	基準器
+master production schedule	plan maestro de producción	基本生産計画
+master sample	patrón de referencia	限度見本
+material disposition	disposición de material	材料判定
+material fatigue	fatiga de materiales	疲労破壊
+material flow	flujo de materiales	材料フロー
+material kitting	kitting de materiales	キッティング
+material quarantine	cuarentena de material	材料隔離
+material receiving	recepción de material	受入
+material requirements planning	plan de requerimiento de materiales	資材所要量計画
+material return	devolución de material	返品対応
+material safety data sheet	ficha MSDS	MSDS（化学物質安全データシート）
+material shortage	falta de material	材料不足
+material shortage on line	falta material en línea	ライン材料不足
+maximum current	corriente máxima	最大電流
+mean time between failures	MTBF	MTBF（平均故障間隔）
+mean time to repair	MTTR	MTTR（平均修理時間）
+measurement error	error de medición	測定誤差
+measurement room	sala de medición	測定室
+measurement standard	estándar de medición	測定基準
+measurement system analysis	MSA	測定システム解析
+measurement uncertainty	incertidumbre de medición	測定不確かさ
+measurement validation	validación de medición	測定妥当性確認
+mechanical failure	falla mecánica	機械故障
+mechanical lock	seguro mecánico	機械ロック
+mechanical starter failure	falla mecánica del starter	スターター機械故障
+mechanical stopper	tope mecánico	ストッパー
+mediation	mediación	調停
+medical check	evaluación médica laboral	健康診断
+medical evacuation	evacuación médica	医療搬送
+meet delivery date	cumplir fecha de entrega	納期遵守
+meet KPI	cumplir con KPI	KPI達成
+meet production target	cumplir objetivo de producción	生産目標達成
+megohmmeter	megóhmetro	メガー
+metal particles	partículas metálicas	金属粒子
+metrological traceability	trazabilidad metrológica	計量トレーサビリティ
+metrology	metrología	測定課
+micro breaks	micro pausas	短時間休憩
+microcontroller	microcontrolador	マイコン
+micrometer	micrómetro	マイクロメータ
+microprocessor	microprocesador	マイクロプロセッサ
+MIG welding	soldadura MIG	MIG溶接
+milling	fresado	フライス加工
+minor defect	defecto menor	軽微不良
+minor nonconformity	no conformidad menor	軽微不適合
+misalignment	desalineación	ミスアライメント
+misdiagnosis	diagnóstico incorrecto	誤診断
+Modbus	Modbus	モドバス
+model change	cambio de modelo	機種切替
+monthly production	producción mensual	月産
+monthly salary	mensualidad	月給
+motion control	control de movimiento	モーション制御
+motivation	motivación	モチベーション
+motor coil	bobina del motor	モーターコイル
+motor failure	motor dañado	モーター故障
+motor housing	carcasa del motor	モーターハウジング
+mounting base	base de montaje	取付ベース
+mounting bolt	tornillo de fijación	取付ボルト
+mounting bracket	soporte de montaje	取付ブラケット
+moving core	núcleo móvil	可動鉄心
+multi-pin connector	conector multipin	多極コネクター
+multi-skilling	polivalencia	多能工
+multimedia system	sistema multimedia	マルチメディアシステム
+multimeter	multímetro	マルチメータ
+musculoskeletal disorder	trastorno musculoesquelético	筋骨格系障害
+muster point	punto de reunión	集合場所
+name plate	placa de identificación	銘板
+natural disaster	desastre natural	自然災害
+near miss	casi accidente	ヒヤリハット
+negative diode	diodo negativo	負極ダイオード
+negative terminal	terminal negativo	マイナス端子
+negotiation	negociación	交渉
+net profit	utilidad neta	純利益
+net salary	salario neto	手取り
+neutral point	punto neutro	中性点
+neutralization	neutralización	中和
+nickel plating	niquelado	ニッケルメッキ
+night shift	turno nocturno	夜勤
+night shift allowance	pago por turno nocturno	夜勤手当
+no load	sin carga	無負荷
+no start condition	no arranca	始動不能
+noise	ruido	騒音
+noise detection	detección de ruido	騒音検知
+noise filter	filtro de ruido	ノイズフィルター
+noise suppressor capacitor	condensador supresor	ノイズ防止コンデンサ
+noise test	prueba de ruido	騒音試験
+non value added	no valor agregado	非付加価値
+non-disclosure agreement	acuerdo de confidencialidad	秘密保持契約
+nut	tuerca	ナット
+O-ring	o-ring	Oリング
+OBD port	puerto OBD	OBDポート
+occupational disease	enfermedad laboral	職業病
+occupational ergonomics	ergonomía laboral	作業人間工学
+occupational exposure	exposición ocupacional	職業曝露
+occupational hazard	peligro laboral	労働危険源
+occupational health	salud ocupacional	労働衛生
+occupational health and safety management system	sistema de gestión de SST	労働安全衛生マネジメントシステム
+occupational safety and health administration	OSHA	OSHA（米国労働安全衛生局）
+OCV blockage	obstrucción de OCV	OCV詰まり
+OCV failure	falla de OCV	OCV故障
+OCV solenoid	solenoide OCV	OCVソレノイド
+OCV stuck closed	OCV pegada cerrada	OCV閉固着
+OCV stuck open	OCV pegada abierta	OCV開固着
+offer letter	carta oferta	内定書
+OH&S audit	auditoría de SST	安全衛生監査
+OH&S objectives	objetivos de SST	安全衛生目標
+OH&S performance	desempeño de SST	安全衛生パフォーマンス
+OH&S policy	política de SST	安全衛生方針
+oil analysis	análisis de aceite	オイル分析
+oil circuit	circuito de aceite	オイル回路
+oil contamination	contaminación de aceite	オイル汚染
+oil control valve	OCV	オイルコントロールバルブ
+oil filter	filtro de aceite	オイルフィルター
+oil leak	fuga de aceite	油漏れ
+oil passage	canal de aceite	オイル通路
+oil pressure	presión de aceite	油圧
+oil pressure sensor	sensor de presión de aceite	油圧センサー
+oil seal	retén	オイルシール
+oil sludge	lodo de aceite	スラッジ
+oil temperature	temperatura de aceite	油温
+oil viscosity	viscosidad del aceite	油粘度
+on board diagnostics	diagnóstico OBD	車載診断
+on-the-job training	entrenamiento en planta	現場教育
+one-piece flow	flujo de una pieza	一個流し
+one-way clutch	embrague unidireccional	ワンウェイクラッチ
+open loop control	control en lazo abierto	開ループ制御
+operating condition	condición de operación	稼働条件
+operating time	tiempo de operación	稼働時間
+operating zone	zona de operación	作業エリア
+operational amplifier	amplificador operacional	オペアンプ
+operational availability	disponibilidad operativa	稼働可能率
+operational control	control operacional	運用管理
+operational efficiency	eficiencia operacional	運用効率
+operational excellence	excelencia operativa	オペレーショナルエクセレンス
+operational interview	entrevista operativa	現場面接
+operational recovery	recuperación operativa	操業復旧
+operational stability	estabilidad operativa	運用安定性
+operator attention	atención del operador	作業者注意
+orderly evacuation	evacuación ordenada	整然避難
+organizational culture	cultura organizacional	組織文化
+organizational failure	falla organizacional	組織的失敗
+oscilloscope	osciloscopio	オシロスコープ
+out of specification part	pieza fuera de especificación	規格外品
+output current	corriente de salida	出力電流
+output performance	rendimiento de salida	出力性能
+output terminal	terminal de salida	出力端子
+output voltage	voltaje de salida	出力電圧
+oven drying	secado en horno	炉乾燥
+overall equipment effectiveness	OEE	OEE（設備総合効率）
+overburden	Muri	ムリ
+overheating	sobrecalentamiento	過熱
+overload detector	detector de sobrecarga	過負荷検出器
+overmolding	sobremoldeo	インサート成形
+overprocessing	procesamiento innecesario	過剰加工
+overproduction	sobreproducción	過剰生産
+overrunning pulley	polea de rueda libre	オーバーランニングプーリー
+overtime	horas extra	残業
+overvoltage	sobretensión	過電圧
+oxidizing agent	agente oxidante	酸化剤
+PA system	sistema de altavoz	放送設備
+packaging	embalaje	梱包
+packing	packing	梱包作業
+paint line	línea de pintura	塗装ライン
+pallet	palet	パレット
+palletizing	paletizado	パレット積載
+parallelism	paralelismo	平行度
+paramedic	paramédico	救急救命士
+part replacement	reemplazo de pieza	部品交換
+partial evacuation	evacuación parcial	部分避難
+partial failure	falla parcial	部分故障
+parts per million	PPM	PPM
+parts supply	abastecimiento de partes	部品供給
+passivation	pasivado	不動態化処理
+patent	patente	特許
+pay period	periodo de pago	支払期間
+pay slip	recibo de nómina	給与明細
+payment terms	condiciones de pago	支払条件
+payroll	nómina	給与
+payroll adjustment	ajuste de nómina	給与調整
+payroll audit	auditoría de nómina	給与監査
+payroll bank	banco de pago	給与振込口座
+payroll ERP	ERP de nómina	給与ERP
+payroll error	error de nómina	給与エラー
+payroll incident	incidencia laboral	勤怠異常
+payroll system	sistema de nómina	給与システム
+payroll taxes	impuestos sobre nómina	給与税
+penalty	penalización	違約金
+pension fund	fondo de pensión	年金
+performance curve	curva de rendimiento	性能曲線
+performance evaluation	evaluación de desempeño	人事評価
+performance goals	objetivos de desempeño	業績目標
+periodic inspection	inspección periódica	定期点検
+permanent corrective action	acción correctiva permanente	恒久対策
+permanent magnet	imán permanente	永久磁石
+perpendicularity	perpendicularidad	直角度
+personal protective equipment	EPP	保護具
+personnel	personal	人員
+personnel list	lista de personal	人員名簿
+personnel selection	selección de personal	人材選考
+phase angle	ángulo de fase	位相角
+phase correction	corrección de fase	位相補正
+phase grouping	agrupación de fases	相グループ化
+phase interconnection	interconexión de fases	相間接続
+phase sensor	sensor de fase	位相センサー
+phosphating	fosfatizado	リン酸塩処理
+photoelectric sensor	sensor fotoeléctrico	光電センサー
+physical evidence	evidencia física	物的証拠
+physical load	carga física	身体負荷
+physical overload	sobrecarga física	身体過負荷
+physical requirements	requisitos físicos	身体条件
+pick and place machine	máquina pick and place	実装機
+picking	picking	ピッキング
+PID control	control PID	PID制御
+pinion gear	engranaje de piñón	ピニオンギア
+planned maintenance	mantenimiento planificado	計画保全
+plant access	acceso a planta	入場管理
+plant digitalization	digitalización de planta	工場デジタル化
+plant engineering	ingeniería de planta	工場エンジニアリング
+plant manager	gerente de planta	工場長
+plant recovery	recuperación de planta	工場復旧
+plant shutdown	paro de planta	工場停止
+plant supervision	supervisión de planta	工場監視
+plant walk	recorrido de planta	現場巡回
+plastic insulator	aislador plástico	樹脂絶縁体
+plasticity	plasticidad	塑性
+PLC communication	comunicación PLC	PLC通信
+PLC controller	PLC industrial	PLC制御
+PLC failure	PLC fallo	PLC異常
+PLC log	registro PLC	PLCログ
+PLC program	programa PLC	PLCプログラム
+poka-yoke	poka yoke	ポカヨケ
+pole claw	garra polar	ポールクロー
+policy compliance	cumplimiento de políticas	方針遵守
+polishing	pulido	研磨
+polymerization	polimerización	重合処理
+poor lubrication	lubricación defectuosa	潤滑不良
+poor maintenance	mantenimiento deficiente	整備不良
+position control	control de posición	位置制御
+position detector	detector de posición	位置検出器
+position sensor	sensor de posición	位置センサー
+positive diode	diodo positivo	正極ダイオード
+positive terminal	terminal positivo	プラス端子
+power board	placa de potencia	パワー基板
+power circuit	circuito de potencia	電力回路
+power distribution	distribución eléctrica	電力分配
+power grid failure	corte eléctrico masivo	広域停電
+power loss	pérdida de potencia	出力低下
+power module	módulo de potencia	パワーモジュール
+power outage	corte de energía	停電
+power supply	fuente de alimentación	電源装置
+power unit	unidad de potencia	パワーユニット
+pre-assembly	preensamble	予備組立
+precision	precisión	精密度
+precision assembly	ensamble de precisión	精密組立
+predictive analytics	análisis predictivo	予測分析
+predictive maintenance	mantenimiento predictivo	予知保全
+prehospital care	atención prehospitalaria	前医療対応
+premature wear	desgaste prematuro	早期摩耗
+presence sensor	sensor de presencia	侵入検知センサー
+press fit	ajuste por interferencia	圧入
+press force	fuerza de prensado	圧入力
+press machine	prensa	プレス機
+press-fit terminal	terminal prensado	圧入端子
+pretreatment	pretratamiento	前処理
+prevent defect shipment	evitar envío de defectos	不良流出防止
+preventive action	acción preventiva	予防処置
+preventive maintenance	mantenimiento preventivo	予防保全
+price not approved	precio no aprobado	価格未承認
+primary packaging	empaque primario	一次梱包
+printed circuit board	circuito impreso	プリント基板
+privacy	privacidad	プライバシー
+probation period	periodo de prueba	試用期間
+procedure	procedimiento	手順
+process audit	auditoría de proceso	工程監査
+process automation	automatización de procesos	プロセス自動化
+process capability	capacidad de proceso	工程能力
+process capability Cp	Cp	工程能力指数Cp
+process capability Cpk	Cpk	工程能力指数Cpk
+process capability study	estudio de capacidad de proceso	工程能力調査
+process documentation	documentación de proceso	工程文書
+process flow	flujo de proceso	工程フロー
+process FMEA	PFMEA	工程FMEA
+process improvement	mejora de proceso	工程改善
+process instruction	instrucción de proceso	工程指示書
+process manual	manual de proceso	工程マニュアル
+process monitoring	monitoreo de proceso	工程監視
+process optimization	optimización de proceso	工程最適化
+process release	liberación de proceso	工程承認
+process routing	trazado de proceso	工程ルート設定
+process traceability	trazabilidad de proceso	工程トレーサビリティ
+process validation	validación de proceso	工程妥当性確認
+procurement	adquisiciones	調達
+product audit	auditoría de producto	製品監査
+product development	desarrollo de producto	製品開発
+product recall	recall de producto	リコール
+product release	liberación de producto	製品承認
+product traceability	trazabilidad de producto	製品トレーサビリティ
+product validation	validación de producto	製品妥当性確認
+production	producción	生産
+production capacity	capacidad de producción	生産能力
+production crisis	crisis de producción	生産危機
+production data	datos de producción	生産データ
+production dispatch	despacho de producción	生産指令
+production flow	flujo de producción	生産フロー
+production history	historial de producción	生産履歴
+production KPI	KPI de producción	生産KPI
+production leveling	Heijunka	平準化
+production line	línea de producción	生産ライン
+production loss	pérdida de producción	生産損失
+production lot	lote de producción	ロット
+production management	gestión de producción	生産マネジメント
+production monitoring	monitoreo de producción	生産監視
+production order	orden de producción	生産指示
+production part approval process	aprobación de partes	生産部品承認プロセス
+production plan	plan de producción	生産計画
+production planning	planeación de producción	生産計画
+production quality	calidad de producción	生産品質
+production report	reporte de producción	生産報告
+production schedule	programa de producción	生産スケジュール
+production scheduling	programación de producción	生産スケジュール
+production scrap	scrap de producción	生産スクラップ
+production target	objetivo de producción	生産目標
+production tracking	seguimiento de producción	生産追跡
+production validation	validación de proceso de producción	生産工程妥当性確認
+productivity	productividad	生産性
+productivity bonus	bonos de productividad	生産奨励金
+profile projector	proyector de perfiles	投影機
+profilometer	perfilómetro	表面粗さ測定器
+PROFINET	Profinet	プロフィネット
+profit margin	margen de ganancia	利益率
+programmable control	control lógico programable	プログラマブル制御
+programmable logic controller	PLC	PLC（シーケンサ）
+property damage	daño material	物的損害
+protection circuit	circuito de protección	保護回路
+protective cover	cubierta protectora	保護カバー
+protective relay	relé de protección	保護リレー
+proximity sensor	sensor de proximidad	近接センサー
+psychological safety	seguridad psicológica	心理的安全性
+psychometric test	evaluación psicométrica	適性検査
+pull system	pull system	プル方式
+pulley	polea	プーリー
+pulley assembly	conjunto polea	プーリー組立品
+pulley hub	cubo de polea	プーリーハブ
+pulley installation	montaje de polea	プーリー取付
+pulley nut	tuerca de polea	プーリーナット
+punching	punzonado	パンチ加工
+purchase approval	aprobación de compra	購買承認
+purchase forecast	forecast de compras	購買予測
+purchase order	orden de compra	発注書
+purchase requisition	requisición de compra	購買依頼
+purchasing	compras	購買
+purchasing Kanban	kanban de compras	購買カンバン
+purchasing plan	plan de compras	購買計画
+push system	push system	プッシュ方式
+PWM controller	controlador PWM	PWMコントローラー
+PWM modulation	modulación PWM	PWM制御
+quality	calidad	品質
+quality approval	aprobación de calidad	品質承認
+quality assurance	aseguramiento de calidad	品質保証
+quality audit	auditoría de calidad	品質監査
+quality claim	reclamo de calidad	品質クレーム
+quality control	control de calidad	品質管理
+quality escalation	escalación de calidad	品質エスカレーション
+quality indicator	indicador de calidad	品質指標
+quality inspection	inspección de calidad	品質検査
+quality KPI	KPI de calidad	品質KPI
+quality level	nivel de calidad	品質レベル
+quality management	gestión de calidad	品質管理
+quality management system	sistema de gestión de calidad	品質マネジメントシステム
+quality manual	manual de calidad	品質マニュアル
+quality objective	objetivo de calidad	品質目標
+quality plan	plan de calidad	品質計画
+quality policy	política de calidad	品質方針
+quality record	registro de calidad	品質記録
+quality rejection	rechazo de calidad	品質不合格
+quality trend	tendencia de calidad	品質傾向
+quick changeover	cambio rápido	段取り替え短縮
+quotation	cotización	見積書
+radial play	juego radial	ラジアルガタ
+radial positioning	posicionamiento radial	径方向位置決め
+random failure	fallo aleatorio	偶発故障
+rated current	corriente nominal	定格電流
+rated voltage	voltaje nominal	定格電圧
+reach distance	alcance de movimiento	到達範囲
+real time	tiempo real	リアルタイム
+real-time data	datos en tiempo real	リアルタイムデータ
+real-time monitoring	monitoreo en tiempo real	リアルタイム監視
+reaming	escariado	リーマ加工
+rear bearing	rodamiento trasero	リアベアリング
+rear cover	tapa trasera	リアカバー
+rear end cover	cubierta posterior	後部カバー
+rear flange	brida trasera	リアフランジ
+rear housing	carcasa trasera	リアハウジング
+record control	control de registros	記録管理
+recruiter	reclutador	採用担当者
+recruitment	reclutamiento	採用
+rectifier	rectificador	整流器
+rectifier assembly	conjunto rectificador	整流器組立品
+rectifier bridge	puente rectificador	整流ブリッジ
+rectifier frame	marco rectificador	整流フレーム
+rectifier plate	placa rectificadora	整流プレート
+recurrence	reincidencia	再発
+recurrent failure	repetición de falla	繰り返し故障
+recurrent field failure	falla repetitiva de campo	繰り返し市場故障
+reduce cycle time	reducir tiempo de ciclo	サイクルタイム短縮
+reduction gear	engranaje de reducción	減速ギア
+reference temperature	temperatura de referencia	基準温度
+reference terminal	terminal de referencia	基準端子
+reflective vest	chaleco reflejante	反射ベスト
+reflow oven	horno de reflow	リフロー炉
+reflow soldering	reflow soldering	リフロー
+regional evacuation	evacuación regional	広域避難
+regulation	regulación	規制
+regulator assembly	conjunto regulador	レギュレーター組立品
+regulator bracket	soporte de regulador	レギュレーター取付金具
+regulator module	módulo regulador	レギュレーターモジュール
+regulatory characteristic	característica regulatoria	法規制特性
+regulatory compliance	cumplimiento normativo	法令遵守
+reinforcement plate	refuerzo estructural	補強板
+reject system	sistema de rechazo	排出システム
+rejected product	producto rechazado	不合格品
+rejection criteria	criterio de rechazo	不合格基準
+relative humidity	humedad relativa	相対湿度
+released product	producto liberado	出荷許可品
+reliability	confiabilidad	信頼性
+reliability analysis	análisis de confiabilidad	信頼性解析
+reliability engineering	ingeniería de confiabilidad	信頼性工学
+reliability improvement	mejora de confiabilidad	信頼性向上
+remote diagnostics	diagnóstico remoto	遠隔診断
+remote maintenance	mantenimiento remoto	遠隔保守
+remote monitoring	monitoreo remoto	遠隔監視
+remote supervision	supervisión remota	遠隔監視
+reorder point	punto de reorden	発注点
+repeatability	repetibilidad	繰返し精度
+repetitive failure	falla repetitiva	繰り返し故障
+repetitive motion	movimiento repetitivo	繰り返し動作
+reproducibility	reproducibilidad	再現性
+reschedule production	reprogramar producción	生産再スケジュール
+rescue	rescate	救助
+rescue team	equipo de rescate	救助隊
+rescue technician	técnico de rescate	救助技術者
+residual torque	torque residual	残留トルク
+resin	resina	樹脂
+resin saturation	saturación de resina	樹脂浸透
+resistance	resistencia	抵抗
+resistance measurement	medición de resistencia	抵抗測定
+resistance welding	soldadura por resistencia	抵抗溶接
+resonance	resonancia	共振
+resonant vibration	vibración resonante	共振振動
+respirator	respirador	防毒マスク
+respiratory protection	protección respiratoria	呼吸保護
+response time	tiempo de respuesta	応答時間
+restricted area	área restringida	立入禁止区域
+restricted zone	zona prohibida	立入禁止区域
+retaining ring	anillo de retención	止め輪
+return spring	resorte de retorno	戻りばね
+return system	sistema de retorno	復帰機構
+returnable packaging	embalaje retornable	通い箱
+revenue	ingresos	収益
+revolutions per minute	RPM	回転数
+risk	riesgo	リスク
+risk analysis	análisis de riesgos	リスク分析
+risk assessment	evaluación de riesgo	リスク評価
+risk control	control de riesgos	リスク管理
+risk elimination	eliminación del riesgo	リスク除去
+risk identification	identificación de riesgos	リスク特定
+risk level	nivel de riesgo	リスクレベル
+risk management	gestión de riesgos	リスクマネジメント
+risk matrix	matriz de riesgo	リスクマトリクス
+riveting	remachado	リベット締結
+robot collision	colisión de robot	ロボット衝突
+robot operating zone	zona de robot	ロボット作業区域
+robot path	trayectoria de robot	ロボット軌道
+robot programming	programación de robot	ロボットプログラミング
+robotic arm	brazo robótico	ロボットアーム
+robotic cell	celda robótica	ロボットセル
+roller cage	jaula de rodillos	ローラーケージ
+root cause	causa raíz	真因
+root cause analysis	análisis de causa raíz	根本原因分析
+rotation direction	sentido de giro	回転方向
+rotational speed	velocidad de rotación	回転速度
+rotational torque	torque de giro	回転トルク
+rotor	rotor	ローター
+rotor assembly	conjunto rotor	ローター組立品
+rotor calibration	calibración de rotor	ローター校正
+rotor centering	centrado de rotor	ローター芯出し
+rotor core	núcleo del rotor	ローターコア
+rotor imbalance	desbalance de rotor	ロータ不平衡
+rotor shaft	eje del rotor	ローターシャフト
+rotor winding	bobinado del rotor	ローター巻線
+rough idle	ralentí inestable	アイドル不安定
+roundness	circularidad	真円度
+route obstruction	bloqueo de ruta	経路閉塞
+S terminal	terminal S	S端子
+safe design	diseño seguro	安全設計
+safe lifting	levantamiento seguro	安全持ち上げ
+safe movement	movimiento seguro	安全動作
+safe procedure	procedimiento seguro	安全手順
+safe speed	velocidad segura	安全速度
+safe stop	parada segura	安全停止
+safe substitution	sustitución segura	安全代替
+safe zone	zona segura	安全区域
+safety and hygiene	seguridad e higiene	安全衛生
+safety audit	auditoría de seguridad	安全監査
+safety awareness	concientización de seguridad	安全意識
+safety boots	botas de seguridad	安全靴
+safety characteristic	característica especial de seguridad	安全特性
+safety color	color de seguridad	安全色
+safety committee	comité de seguridad	安全委員会
+safety culture	cultura de seguridad	安全文化
+safety data sheet	hoja de seguridad	SDS（安全データシート）
+safety fence	cercado de seguridad	安全フェンス
+safety footwear	calzado de seguridad	安全靴
+safety glasses	lentes de seguridad	保護メガネ
+safety gloves	guantes de seguridad	安全手袋
+safety helmet	casco de seguridad	安全ヘルメット
+safety indicator	indicador de seguridad	安全指標
+safety inspection	inspección de seguridad	安全点検
+safety integrity level	SIL	SIL（安全度水準）
+safety interlock	interlock de seguridad	安全インターロック
+safety KPI	KPI de seguridad	安全KPI
+safety observation	observación de seguridad	安全観察
+safety sensor	sensor de seguridad	安全センサー
+safety signage	señalización de seguridad	安全標識
+safety standard	norma de seguridad	安全規格
+safety stock	stock de seguridad	安全在庫
+safety supervision	supervisión de seguridad	安全監督
+safety system	sistema de seguridad	安全システム
+safety training	capacitación de seguridad	安全教育
+salary	salario	給料
+salary confidentiality	confidencialidad salarial	給与機密
+salary payment	pago de salario	給与支払い
+sales	ventas	営業
+sales forecast	forecast de ventas	販売予測
+sales order	orden de venta	販売注文
+sample size	tamaño de muestra	サンプルサイズ
+sampling plan	plan de muestreo	抜取計画
+SAP system	SAP	SAPシステム
+SCADA system	SCADA	SCADA
+SCBA unit	equipo autónomo de respiración	自給式呼吸器
+scheduled maintenance	mantenimiento programado	定期保全
+scheduled shutdown	parada programada	計画停止
+search and rescue	búsqueda y rescate	捜索救助
+segregation	segregación	区分保管
+self-contained breathing apparatus	SCBA	空気呼吸器
+self-diagnostic circuit	circuito de autodiagnóstico	自己診断回路
+semiconductor device	dispositivo semiconductor	半導体素子
+sense terminal	terminal de detección	センス端子
+sensor	sensor	センサー
+sensor failure	falla de sensor	センサー故障
+sensory inspection	inspección sensorial	感覚点検
+sequence order	orden de secuencia	生産順序
+sequencing	secuenciación	順序付け
+serial number	número de serie	製造番号
+service cover	cubierta de servicio	サービスカバー
+service level	nivel de servicio	サービスレベル
+service life	vida útil	寿命
+servo control	servo control	サーボ制御
+servo drive	driver de servo	サーボドライブ
+servo motor	servomotor	サーボモーター
+settlement pay	liquidación	清算金
+severance pay	finiquito	退職金
+severity level	nivel de severidad	重大度
+shaft	eje	シャフト
+shaft misalignment	desalineación de eje	軸ずれ
+shift change	cambio de turno	シフト交代
+shift rotation	rotación de turnos	シフト交代
+shim	disco espaciador	シム
+shipment	envío	発送
+shipment release	liberación de embarque	出荷判定
+shipping	embarque	出荷
+shipping label	etiqueta de embarque	出荷ラベル
+shop floor control	control en piso	現場管理
+short circuit	cortocircuito	短絡
+shortlist	lista corta	候補者リスト
+shot blasting	granallado	ショットブラスト
+sick leave	incapacidad	病欠
+Sigma level	nivel sigma	シグマレベル
+single minute exchange of die	SMED	SMED（段取り時間短縮）
+Six Sigma	Six Sigma	シックスシグマ
+skills assessment	evaluación de habilidades	スキル評価
+sleeve	manguito	スリーブ
+sliding contact	contacto deslizante	摺動接点
+slip ring	anillo rozante	スリップリング
+slip ring damage	anillo rozante dañado	スリップリング損傷
+slot forming	formación de ranura	スロット成形
+slot insertion	inserción en ranura	スロット挿入
+slow cranking	arranque lento	始動遅れ
+slow VVT response	respuesta lenta de VVT	VVT応答遅れ
+smart alternator	alternador inteligente	スマートオルタネータ
+smart regulator	regulador inteligente	スマートレギュレーター
+SMD component	componente SMD	表面実装部品
+SMD resistor	resistencia SMD	チップ抵抗
+smoke control	control de humo	煙制御
+smoke detector	detector de humo	煙感知器
+SMT assembly	ensamble SMT	SMT組立
+SMT line	línea SMT	SMTライン
+snap ring	anillo elástico	スナップリング
+social security	seguro social	社会保険
+sodium hydroxide	hidróxido de sodio	水酸化ナトリウム
+software error	error de software	ソフトウェア異常
+solder bridge	puente de soldadura	ブリッジ不良
+solder defect	defecto de soldadura	はんだ不良
+solder paste	pasta de soldadura	はんだペースト
+solder printing	impresión de pasta	印刷工程
+soldering	soldadura de estaño	はんだ付け
+solenoid	solenoide	ソレノイド
+solenoid plunger	solenoide de desplazamiento	ソレノイドプランジャー
+solenoid sludge	lodo en solenoide	ソレノイドスラッジ
+solenoid switch	switch de solenoide	ソレノイドスイッチ
+solvency	solvencia	支払能力
+spacer	separador	スペーサー
+spare part	refacción	予備品
+spare parts	refacciones	予備品
+spare parts inventory	inventario de refacciones	予備品在庫
+sparking	chisporroteo	スパーク発生
+special characteristic	característica especial	特殊特性
+spectrum analysis	análisis de espectro	スペクトル解析
+speed control	control de velocidad	速度制御
+speed sensor	sensor de velocidad	回転センサー
+spill	derrame de sustancia	漏洩
+spill containment	contención de derrame	漏洩防止
+spill kit	kit de derrames	漏洩対応キット
+spot welding	soldadura por puntos	スポット溶接
+sprinkler system	sistema de rociadores	スプリンクラー設備
+stable production	producción estable	安定生産
+stamping	estampado	プレス加工
+standard work	estándar de trabajo	標準作業
+standardized work	trabajo estándar	標準作業
+start button	botón de arranque	スタートボタン
+start-stop system	sistema Start-Stop	ストップスタートシステム
+starter control ECU	ECU de arranque	スターターECU
+starter diagnostics	diagnóstico de arranque	始動診断
+starter fuse	fusible de arranque	スターターヒューズ
+starter lifespan	vida útil del starter	スターター寿命
+starter motor	motor de arranque	スターターモーター
+starter relay	relé de arranque	スターターリレー
+starter solenoid	solenoide de arranque	スターターソレノイド
+starter subassembly	subensamble de marcha	スターターサブアセンブリ
+starting current	corriente de arranque	始動電流
+starting failure	falla de arranque	始動不良
+starting system	sistema de arranque	始動システム
+starting torque	par de arranque	始動トルク
+state of charge	estado de carga	充電状態
+static balancing	balanceo estático	静的バランス
+station balancing	balanceo de estación	工程バランス
+station quality	calidad en estación	工程品質
+station time	tiempo de estación	工程時間
+statistical analysis	análisis estadístico	統計分析
+statistical control	control estadístico	統計管理
+statistical process control	control estadístico de proceso	統計的工程管理
+stator	estator	ステーター
+stator assembly	conjunto estator	ステーター組立品
+stator holder	portaestator	ステーターホルダー
+stator winding	bobinado del estator	ステーター巻線
+status identification	identificación de estado	状態識別
+stock available	stock disponible	在庫あり
+stop button	botón de paro	停止ボタン
+stored energy	energía residual	残留エネルギー
+strain injury	lesión por esfuerzo	反復負荷障害
+strength of materials	resistencia de materiales	材料力学
+stretcher	camilla	担架
+structural analysis	análisis estructural	構造解析
+stuck VVT	VVT trabado	VVT固着
+sub-assembly	subensamble	サブアセンブリ
+subassembly integration	integración de subconjunto	サブ組込
+substitution	sustitución	代替
+sulfuric acid	ácido sulfúrico	硫酸
+supervisor	supervisor	監督者
+supplier	proveedor	仕入先
+supplier audit	auditoría de proveedor	サプライヤー監査
+supplier evaluation	evaluación de proveedor	サプライヤー評価
+supplier management	gestión de proveedores	仕入先管理
+supplier quality	calidad del proveedor	サプライヤー品質
+supplier receiving	recepción de proveedores	仕入受入
+supplier rejection	rechazo de proveedor	サプライヤー不採用
+supplier selection	selección de proveedor	サプライヤー選定
+supply chain	cadena de suministro	サプライチェーン
+suppression device	elemento de supresión	ノイズ抑制部品
+surety	fianzas	保証契約
+surface coating	recubrimiento superficial	表面処理
+surface mount technology	tecnología SMT	SMT技術
+surface roughness	rugosidad superficial	表面粗さ
+surge protector	protector de sobretensión	サージ保護器
+system alarms	alarmas del sistema	アラーム
+system attack	ataque al sistema	システム攻撃
+system audit	auditoría de sistema	システム監査
+system availability	disponibilidad del sistema	システム可用性
+system continuous improvement	mejora continua del sistema	システム継続改善
+system error	error de sistema	システムエラー
+system failure	falla del sistema	システム故障
+system improvement	mejora del sistema	システム改善
+system integration	integración de sistemas	システム統合
+system integrity	integridad del sistema	システム整合性
+system reset	reset de sistema	システムリセット
+system response	respuesta del sistema	システム応答
+systemic risk	riesgo sistémico	システミックリスク
+takt time	takt time	タクトタイム
+talent retention	retención de talento	人材定着
+taxes	impuestos	税金
+teach mode	modo enseñanza	ティーチモード
+team meeting	reunión de equipo	チームミーティング
+teamwork	trabajo en equipo	チームワーク
+technical interview	entrevista técnica	技術面接
+technical report	informe técnico	技術報告書
+technical skill	habilidad técnica	技術スキル
+technical test	prueba técnica	技能試験
+telemetry	telemetría	テレメトリー
+temperature	temperatura	温度
+temperature detection	detección de temperatura	温度検出
+temperature sensor	sensor de temperatura	温度センサー
+terminal adapter	adaptador terminal	端子アダプター
+terminal assembly	conjunto terminal	端子組立品
+terminal cover	tapa terminal	端子カバー
+terminal forming	formado terminal	端子成形
+terminal holder	portaterminal	端子ホルダー
+terminal insulator	aislador terminal	端子絶縁体
+terminal protector	protector de terminales	端子保護カバー
+terms and conditions	términos y condiciones	利用規約
+test bench	banco de pruebas	試験ベンチ
+thermal analysis	análisis térmico	熱解析
+thermal camera	cámara termográfica	サーモカメラ
+thermal compensator	compensador térmico	温度補償器
+thermal curing	curado térmico	熱硬化
+thermal failure	falla térmica	熱故障
+thermal fuse	fusible térmico	温度ヒューズ
+thermal monitor	monitor térmico	温度監視装置
+thermal protector	protector térmico	サーマルプロテクター
+thermal stripping	decapado térmico	熱剥離処理
+thermal test	prueba térmica	温度試験
+thermography	termografía	サーモグラフィ
+threading	roscado	ねじ加工
+three-phase coil	bobina trifásica	三相コイル
+three-phase connection	conexión trifásica	三相接続
+three-phase generator	generador trifásico	三相発電機
+three-phase system	sistema trifásico	三相電力
+TIG welding	soldadura TIG	TIG溶接
+time between failures	tiempo entre fallas	故障間隔
+time calculation	cálculo de horas	勤怠計算
+time card	tarjeta de tiempo	タイムカード
+time clock	reloj checador	タイムクロック
+time tracking	registro de tiempo	タイムレコーディング
+timing control	control de sincronización	タイミング制御
+timing delay	retraso de sincronización	タイミング遅れ
+timing failure	falla de sincronización	タイミング故障
+timing mismatch	desfase de sincronización	タイミングずれ
+tinning	estañado	予備はんだ処理
+toroidal inductor	inductor toroidal	トロイダルインダクタ
+torque	torque	トルク
+torque control	control de torque	トルク管理
+torque tightening	torque de apriete	締付トルク
+torque tool	herramienta de torque	トルクレンチ
+torque verification	verificación de torque	トルク確認
+total evacuation	evacuación total	全面避難
+total failure	falla total	全損故障
+total productive maintenance	mantenimiento productivo total	全員参加保全
+total quality control	control de calidad total	全社品質管理
+touch screen	pantalla táctil	タッチパネル
+tourniquet	torniquete	止血帯
+toxic fumes	vapores tóxicos	有毒ガス
+toxic substance	sustancia tóxica	有毒物質
+toxicity	toxicidad	毒性
+traceability	trazabilidad	トレーサビリティ
+traceability label	etiqueta de trazabilidad	トレーサビリティラベル
+trade credit	crédito comercial	商業信用
+trademark	marca registrada	商標
+training	capacitación	教育訓練
+transfer line	línea de transferencia	トランスファーライン
+transfer system	sistema de transporte	搬送システム
+transformer	transformador	変圧器
+transmission assembly	ensamble de transmisión	トランスミッション組立
+transmission ECU	ECU de transmisión	トランスミッションECU
+triage	triaje	トリアージ
+triage zone	zona de triage	トリアージ区域
+tribology	tribología	トライボロジー
+trickle impregnation	impregnación por goteo	トリクル含浸
+turn distribution	distribución de espiras	巻数配置
+turn shaping	moldeado de espiras	巻線整形
+turning	torneado	旋削加工
+turnover	rotación de personal	離職率
+ultrasonic cleaning	lavado ultrasónico	超音波洗浄
+ultrasonic welding	soldadura ultrasónica	超音波溶接
+unauthorized access	acceso no autorizado	不正アクセス
+unevenness	variabilidad	ばらつき
+unit price	precio unitario	単価
+unplanned downtime	paro no programado	計画外停止
+unsafe act	acto inseguro	不安全行動
+unsafe condition	condición insegura	不安全状態
+urgent material replenishment	reposición urgente de material	緊急補充
+urgent order	orden urgente	緊急発注
+urgent replenishment	reposición urgente	緊急補充
+vacation	vacaciones	有給休暇
+vacation bonus	prima vacacional	休暇手当
+vacuum curing	curado al vacío	真空硬化
+vacuum impregnation	impregnación al vacío	真空含浸
+value added	valor agregado	付加価値
+value stream	flujo de valor	バリューストリーム
+value stream mapping	mapa de flujo de valor	バリューストリームマップ
+valve advance	avance de válvula	バルブ進角
+valve retard	retardo de válvula	バルブ遅角
+valve timing phase	fase de distribución	バルブタイミング位相
+variable cam timing	sistema VCT	可変カムタイミング
+variable camshaft	árbol de levas variable	可変カムシャフト
+variable timing	sincronización variable	可変タイミング
+variable valve lift	VVL	可変バルブリフト
+variable valve timing system	sistema VVT	可変バルブタイミング
+variable valve timing valve	válvula VVT	可変バルブタイミングバルブ
+variation reduction	reducción de variación	ばらつき低減
+varistor	varistor	バリスタ
+varnish dipping	inmersión en barniz	ワニス含浸
+VAT	IVA	付加価値税
+vented cover	cubierta ventilada	通風カバー
+ventilation	ventilación	換気
+ventilation channel	canal de ventilación	通風路
+vernier caliper	calibrador Vernier	ノギス
+vibration	vibración	振動
+vibration analysis	análisis de vibración	振動解析
+vibration frequency	frecuencia de vibración	振動周波数
+vibration sensor	sensor de vibración	振動センサー
+vibration signature	firma de vibración	振動シグネチャ
+vibration test	prueba de vibración	振動試験
+vision system	sistema de visión	画像処理システム
+visual criteria	criterio visual	外観基準
+visual design	diseño visual	視覚設計
+visual inspection	inspección visual	外観検査
+visual part inspection	inspección visual de partes	目視部品検査
+visual signage	señalización visual	視覚表示
+visual verification	verificación visual	目視確認
+voltage	voltaje	電圧
+voltage control	control de voltaje	電圧制御
+voltage detector	detector de voltaje	検電器
+voltage drop	caída de voltaje	電圧降下
+voltage fluctuation	oscilación de voltaje	電圧変動
+voltage limiter	limitador de voltaje	電圧制限器
+voltage measurement	medición de voltaje	電圧測定
+voltage regulation	regulación de voltaje	電圧調整
+voltage regulator	regulador de voltaje	電圧レギュレーター
+voltage sensor	sensor de voltaje	電圧センサー
+volumetric efficiency	eficiencia volumétrica	容積効率
+voluntary resignation	renuncia voluntaria	自主退職
+VVT actuator	actuador VVT	VVTアクチュエータ
+VVT actuator test	prueba de actuador VVT	VVT作動テスト
+VVT control unit	unidad de control VVT	VVT制御ユニット
+VVT failure	falla de VVT	可変バルブ故障
+wage garnishment	retención salarial	給与差押え
+waiting time	tiempo de espera	待ち時間
+warehouse	almacén	倉庫
+warranty	garantía	保証
+warranty rejection	garantía rechazada	保証却下
+warranty return	retorno de garantía	保証返品
+washer	arandela	ワッシャー
+waste handling	manejo de residuos	廃棄物処理
+waste reduction	reducción de desperdicio	ムダ削減
+water shield	protector contra agua	防水カバー
+weak battery	batería débil	バッテリー弱り
+weak oil pump	bomba de aceite débil	オイルポンプ不良
+wear failure	falla por desgaste	摩耗故障
+wear-out failure	fallo por desgaste	摩耗故障
+Weibull distribution	distribución de Weibull	ワイブル分布
+weld correction	corrección por soldadura	溶接補正
+welding	soldadura	溶接
+winding	bobinado	巻線
+winding failure	falla de bobinado	巻線不良
+winding machine	bobinadora	巻線機
+winding preparation	preparación de bobinado	巻線準備
+winding process	proceso de bobinado	巻線工程
+wire cutting	corte de alambre	線材切断
+wire diameter	diámetro del alambre	線径
+wire feeding	alimentación de alambre	線材供給
+wire fusion	fusión de conductor	線材溶融接合
+wire guiding	guiado de alambre	線材ガイド
+wire routing	enrutamiento de alambre	配線処理
+wire seating	acomodado de conductor	線材整列
+wire tension	tensión del alambre	線張力
+wire tensioning	tensado de conductor	線張力調整
+wiring	cableado	配線
+wiring harness	arnés eléctrico	ワイヤーハーネス
+witness	testigo	目撃者
+witness statement	declaración del testigo	目撃証言
+work at height	trabajo en altura	高所作業
+work breaks	pausas laborales	作業休憩
+work concentration	concentración laboral	作業集中
+work discipline	disciplina laboral	勤務規律
+work environment	ambiente laboral	作業環境
+work experience	experiencia laboral	職務経験
+work fatigue	fatiga laboral	疲労
+work height	altura de trabajo	作業高さ
+work hours	jornada laboral	労働時間
+work in process	trabajo en proceso	仕掛品
+work in process in line	WIP en línea	ライン仕掛品
+work injury	lesión laboral	労働災害
+work instruction	instrucción de trabajo	作業指示書
+work order	orden de trabajo	作業指示書
+work permit	permiso de trabajo	作業許可
+work shift	turno de trabajo	勤務シフト
+work standardization	estandarización del trabajo	作業標準化
+work station	estación de trabajo	作業ステーション
+work stress	estrés laboral	ストレス
+work uniform	uniforme de trabajo	作業服
+worked days	días laborados	出勤日数
+worker consultation	consulta laboral	労働者協議
+worker participation	participación del trabajador	労働者参加
+worker safety	seguridad del trabajador	作業者安全
+workflow	flujo de trabajo	作業フロー
+workforce	mano de obra	労働力
+workforce adjustment	ajuste de personal	人員調整
+workforce planning	planeación de personal	人員計画
+working posture	postura de trabajo	作業姿勢
+working temperature	temperatura de trabajo	作業温度
+workload assessment	evaluación de carga de trabajo	作業負荷評価
+workplace accident	accidente laboral	労働災害
+workplace emergency	emergencia laboral	労働緊急事態
+workplace risk	riesgo laboral	労働リスク
+workstation design	diseño de estación de trabajo	作業台設計
+worn brushes	escobillas desgastadas	ブラシ摩耗
+X-ray inspection	rayos X inspección	X線検査
+year-end bonus	aguinaldo	年末手当
+yoke	yugo	ヨーク
+Zener diode	diodo Zener	ツェナーダイオード
+zero accident	cero accidentes	無災害
+zero defect	cero defectos	ゼロ不良
