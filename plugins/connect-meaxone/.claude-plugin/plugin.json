@@ -1,0 +1,9 @@
+{
+  "name": "connect-meaxone",
+  "description": "Vincula un sistema MEAX (.NET, Blazor o MVC) a MEAX One como satélite con solo el código del sistema y la carpeta de publicación: SSO del hub con cookie propia, login de desarrollo, latido, URLs relativas al PathBase, configuración del servidor sin exponer secretos, publicación con respaldo y verificación.",
+  "author": {
+    "name": "Fabian Gonzalez",
+    "email": "elfabigs03@gmail.com"
+  },
+  "keywords": ["meax", "meax-one", "sso", "jwt", "iis", "blazor"]
+}

@@ -6,6 +6,7 @@ como marketplace de plugins.
 | Plugin | Qué hace |
 |---|---|
 | [`translate-system`](plugins/translate-system/skills/translate-system/SKILL.md) | Traduce un sistema Blazor Web App (.NET 8+) a Español, English y 日本語. Instala `Resources/{es,en,ja}.json`, toma el idioma del claim `Idioma` del JWT de MEAX One, agrega el selector con banderas en el menú de usuario, reemplaza los textos de todas las pantallas y valida que no falte nada. |
+| [`connect-meaxone`](plugins/connect-meaxone/skills/connect-meaxone/SKILL.md) | Vincula un sistema .NET (Blazor o MVC) a MEAX One como satélite. Solo pregunta el código del sistema y la carpeta de publicación. Instala el SSO del hub con cookie propia, el login de desarrollo y el latido; deja las URLs relativas al PathBase; arma la configuración del servidor sin mostrar secretos; publica con respaldo y `app_offline`; verifica el SSO y entrega el SQL de registro en `meax_db`. |
 
 ## Instalación
 
@@ -17,6 +18,7 @@ Claude Code al abrir una sesión.
 ```
 /plugin marketplace add MEAX-Development/Skills-For-Meax
 /plugin install translate-system@skills-for-meax
+/plugin install connect-meaxone@skills-for-meax
 ```
 
 Para traer cambios: `/plugin marketplace update skills-for-meax`.
@@ -32,8 +34,16 @@ Dentro del repo del sistema, en Claude Code:
 o pídelo con tus palabras ("traduce este sistema a español, inglés y japonés"). Sirve también
 para completar traducciones de un sistema que ya la usa.
 
-**Requisitos en el equipo:** Python 3 y el .NET SDK del sistema. Para publicar, acceso a la
-carpeta del servidor.
+```
+/connect-meaxone
+```
+
+o "conecta este sistema a MEAX One". Pregunta solo el código del sistema (el `code` de
+`meax_all_system`) y la carpeta de publicación (`\\meaxs066\inetpub\Services\<Carpeta>`).
+El registro en `meax_db` y el alias de IIS los hace IT; la skill entrega el SQL y la lista.
+
+**Requisitos en el equipo:** Python 3 (translate-system), PowerShell y el .NET SDK del sistema.
+Para publicar, acceso a la carpeta del servidor.
 
 ## Mantenimiento
 

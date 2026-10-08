@@ -13,6 +13,12 @@
       "source": "./plugins/translate-system",
       "description": "Traduce un sistema MEAX (Blazor Web App) a Español, English y 日本語, con el selector de idioma en el menú de usuario y el idioma del claim de MEAX One.",
       "category": "development"
+    },
+    {
+      "name": "connect-meaxone",
+      "source": "./plugins/connect-meaxone",
+      "description": "Vincula un sistema MEAX a MEAX One como satélite: SSO del hub, latido, URLs relativas al PathBase, configuración del servidor y publicación en meaxs066, con solo el código del sistema y la carpeta de publicación.",
+      "category": "development"
     }
   ]
 }
